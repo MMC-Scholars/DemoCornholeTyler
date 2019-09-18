@@ -1,4 +1,4 @@
-﻿Log file open, 09/13/19 11:57:04
+﻿Log file open, 09/18/19 17:25:23
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DemoCornholeTyler
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1713970270) SRandInit(-1713970270).
+LogInit: Display: RandInit(300973052) SRandInit(300973052).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.940442
+LogStats: Stats thread started at 0.247651
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -108,920 +108,421 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  
+LogInit: Command line: 
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.09.13-15.57.08:887][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.13-15.57.08:887][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.09.13-15.57.08:938][  0]LogInit: Computer: MT330D07
-[2019.09.13-15.57.08:939][  0]LogInit: User: liu7864
-[2019.09.13-15.57.08:939][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.09.13-15.57.08:939][  0]LogInit: High frequency timer resolution =3.410077 MHz
-[2019.09.13-15.57.08:939][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.09.13-15.57.08:939][  0]LogMemory: Platform Memory Stats for Windows
-[2019.09.13-15.57.08:939][  0]LogMemory: Process Physical Memory: 284.85 MB used, 284.85 MB peak
-[2019.09.13-15.57.08:939][  0]LogMemory: Process Virtual Memory: 286.17 MB used, 286.17 MB peak
-[2019.09.13-15.57.08:939][  0]LogMemory: Physical Memory: 8828.78 MB used,  7477.61 MB free, 16306.39 MB total
-[2019.09.13-15.57.08:939][  0]LogMemory: Virtual Memory: 717.24 MB used,  7477.61 MB free, 134217728.00 MB total
-[2019.09.13-15.57.10:270][  0]LogInit: Using OS detected language (en-US).
-[2019.09.13-15.57.10:270][  0]LogInit: Using OS detected locale (en-US).
-[2019.09.13-15.57.10:635][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.09.13-15.57.13:534][  0]LogD3D11RHI: D3D11 adapters:
-[2019.09.13-15.57.13:682][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2019.09.13-15.57.13:682][  0]LogD3D11RHI:       8079/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2019.09.13-15.57.13:693][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.09.13-15.57.13:694][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.09.13-15.57.13:694][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.09.13-15.57.13:717][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.09.13-15.57.13:717][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2019.09.13-15.57.13:717][  0]LogWindows: EnumDisplayDevices:
-[2019.09.13-15.57.13:718][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2019.09.13-15.57.13:718][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2019.09.13-15.57.13:718][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.09.13-15.57.13:719][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2019.09.13-15.57.13:719][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.09.13-15.57.13:719][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2019.09.13-15.57.13:719][  0]LogD3D11RHI:   Driver Version: 436.02 (internal:26.21.14.3602, unified:436.02)
-[2019.09.13-15.57.13:719][  0]LogD3D11RHI:      Driver Date: 8-16-2019
-[2019.09.13-15.57.13:719][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2019.09.13-15.57.13:845][  0]LogD3D11RHI: Async texture creation enabled
-[2019.09.13-15.57.13:998][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.09.13-15.57.14:081][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Intermediate/Shaders/WorkingDirectory/259364/).
-[2019.09.13-15.57.14:081][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/liu.7864/AppData/Local/Temp/37/UnrealShaderWorkingDir/C03922F1415E375D784BF5B121E96B30/'.
-[2019.09.13-15.57.14:081][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.09.13-15.57.18:842][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.09.13-15.57.19:003][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.09.13-15.57.19:166][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.09.13-15.57.19:333][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.09.13-15.57.19:687][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.09.13-15.57.19:861][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.09.13-15.57.20:024][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.09.13-15.57.20:196][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.09.13-15.57.20:447][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.09.13-15.57.20:639][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.09.13-15.57.21:085][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.09.13-15.57.21:284][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.09.13-15.57.21:485][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.09.13-15.57.21:675][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.09.13-15.57.21:832][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.09.13-15.57.22:143][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.09.13-15.57.22:143][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.09.13-15.57.22:287][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.09.13-15.57.22:611][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.09.13-15.57.22:728][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.09.13-15.57.22:927][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.09.13-15.57.23:563][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.09.13-15.57.23:725][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.09.13-15.57.23:942][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.09.13-15.57.23:942][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.09.13-15.57.26:544][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.09.13-15.57.27:348][  0]LogDerivedDataCache: Loaded boot cache 0.80s 93MB C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2019.09.13-15.57.27:348][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2019.09.13-15.57.27:348][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.09.13-15.57.27:348][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.09.13-15.57.27:348][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.13-15.57.27:348][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.09.13-15.57.27:418][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.09.13-15.57.27:433][  0]LogDerivedDataCache: Using Local data cache path C:/Users/liu.7864/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.09.13-15.57.27:501][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.09.13-15.57.27:534][  0]LogSlate: Using Freetype 2.6.0
-[2019.09.13-15.57.27:583][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.09.13-15.57.27:583][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.09.13-15.57.35:769][  0]LogAssetRegistry: FAssetRegistry took 0.0345 seconds to start up
-[2019.09.13-15.57.36:463][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.13-15.57.37:977][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2019.09.13-15.57.39:537][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.09.13-15.57.39:739][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.09.13-15.57.39:739][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.09.13-15.57.39:739][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.09.13-15.57.39:739][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.09.13-15.57.39:739][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.09.13-15.57.42:699][  0]LogNetVersion: DemoCornholeTyler , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4077194088)
-[2019.09.13-15.57.44:607][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.147931 seconds
-[2019.09.13-15.57.44:747][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2019.09.13-15.57.44:747][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2019.09.13-15.57.44:791][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.09.13-15.57.45:082][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2019.09.13-15.58.02:836][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.09.13-15.58.02:951][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.09.13-15.58.06:516][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2019.09.13-15.58.08:553][  0]SourceControl: Source control is disabled
-[2019.09.13-15.58.08:553][  0]SourceControl: Source control is disabled
-[2019.09.13-15.58.08:809][  0]SourceControl: Source control is disabled
-[2019.09.13-15.58.09:050][  0]SourceControl: Source control is disabled
-[2019.09.13-15.58.12:308][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.09.13-15.58.13:396][  0]LogOcInput: OculusInput pre-init called
-[2019.09.13-15.58.14:793][  0]LogEngine: Initializing Engine...
-[2019.09.13-15.58.14:827][  0]LogHMD: Oculus plugin initialized. Version: 4.17.2-3658906+++UE4+Release-4.17, OVRPlugin: 1.15.0
-[2019.09.13-15.58.15:777][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.09.13-15.58.15:778][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.09.13-15.58.16:760][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.09.13-15.58.16:916][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.09.13-15.58.17:103][  0]LogInit: FAudioDevice initialized.
-[2019.09.13-15.58.17:816][  0]LogDerivedDataCache: Saved boot cache 0.70s 93MB C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2019.09.13-15.58.17:848][  0]LogInit: Texture streaming: Enabled
-[2019.09.13-15.58.18:521][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.09.13-15.58.20:052][  0]LogInit: Transaction tracking system initialized
-[2019.09.13-15.58.21:656][  0]BlueprintLog: New page: Editor Load
-[2019.09.13-15.58.26:593][  0]LocalizationService: Localization service is disabled
-[2019.09.13-15.58.30:505][  0]LogConsoleResponse: Display: 
-[2019.09.13-15.58.31:939][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/' took 0.02s
-[2019.09.13-15.58.31:939][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.09.13-15.58.31:939][  0]LogCook: Display: Mobile HDR setting 1
-[2019.09.13-15.58.31:944][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.09.13-15.58.37:691][  0]SourceControl: Source control is disabled
-[2019.09.13-15.58.37:722][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.09.13-15.58.37:739][  0]LightingResults: New page: Lighting Build
-[2019.09.13-15.58.37:962][  0]MapCheck: New page: Map Check
-[2019.09.13-15.58.37:962][  0]LightingResults: New page: Lighting Build
-[2019.09.13-15.58.41:855][  0]LogAIModule: Creating AISystem for world TylerMap1
-[2019.09.13-15.58.42:539][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.09.13-15.58.42:692][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.09.13-15.58.42:869][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 176.476ms to complete.
-[2019.09.13-15.58.42:908][  0]LogFileHelpers: Loading map 'TylerMap1' took 5.147
-[2019.09.13-15.58.43:939][  0]LogCollectionManager: Loaded 0 collections in 0.006026 seconds
-[2019.09.13-15.58.44:210][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Saved/Collections/' took 0.01s
-[2019.09.13-15.58.44:210][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Developers/liu7864/Collections/' took 0.01s
-[2019.09.13-15.58.44:210][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Collections/' took 0.01s
-[2019.09.13-15.58.44:210][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.09.13-15.58.44:221][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2386 classes and 500 folders.
-[2019.09.13-15.58.44:534][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2019.09.13-15.58.45:759][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.09.13-15.58.45:983][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2019.09.13-15.58.46:609][  0]LogSlate: Took 0.013135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.09.13-15.58.46:625][  0]LogSlate: Took 0.014305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.09.13-15.58.46:646][  0]LogSlate: Took 0.015939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.09.13-15.58.46:949][  0]LogRenderer: Reallocating scene render targets to support 1616x1012 Format 26 NumSamples 1 (Frame:1).
-[2019.09.13-15.58.48:896][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2019.09.13-15.58.48:896][  0]LogLoad: (Engine Initialization) Total time: 122.77 seconds
-[2019.09.13-15.58.48:896][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.09.13-15.58.48:907][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2019.09.13-15.58.49:283][  0]LogOcInput: OculusInput is initialized
-[2019.09.13-15.58.49:368][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.09.13-15.58.50:562][  3]LogAssetRegistry: Asset discovery search completed in 74.8142 seconds
-[2019.09.13-15.58.50:600][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.09.13-15.58.50:608][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.007506 seconds (updated 0 objects)
-[2019.09.13-16.17.09:624][440]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.12:050][605]Cmd: DELETE
-[2019.09.13-16.17.12:050][605]Cmd: ACTOR DELETE
-[2019.09.13-16.17.12:352][605]LogEditorActor: Deleted Actor: InstancedFoliageActor
-[2019.09.13-16.17.12:436][605]LogEditorActor: Deleted 1 Actors (0.202 secs)
-[2019.09.13-16.17.13:948][781]Cmd: TRANSACTION UNDO
-[2019.09.13-16.17.13:949][781]LogEditorTransaction: Undo Delete Actors
-[2019.09.13-16.17.14:206][781]LogSlate: Took 0.010517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.09.13-16.17.15:427][911]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.16:004][975]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.16:056][976]LogEditorViewport: Clicking on Actor (double click): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.25:671][  0]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.26:211][ 43]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.17.27:555][161]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
-[2019.09.13-16.17.28:439][238]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.29:497][356]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.29:609][365]LogEditorViewport: Clicking on Actor (double click): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.29:842][390]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.30:758][476]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.17.38:527][113]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.17.39:558][198]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.17.59:601][309]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
-[2019.09.13-16.18.04:074][591]LogSlate: Took 0.000307 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.09.13-16.18.22:633][ 90]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Shrubbery/Tyler_Tree3New.fbx)
-[2019.09.13-16.18.22:783][ 90]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2019.09.13-16.18.22:783][ 90]LogFbx: ItemName: Geometry, ItemCount : 5
-[2019.09.13-16.18.22:784][ 90]LogFbx: ItemName: Model, ItemCount : 5
-[2019.09.13-16.18.22:797][ 90]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Shrubbery/Tyler_Tree3New.fbx
-[2019.09.13-16.18.22:820][ 90]LogFbx: FBX Scene Loaded Succesfully
-[2019.09.13-16.18.24:399][ 90]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Shrubbery/Tyler_Tree3New.fbx
-[2019.09.13-16.18.24:408][ 90]LogFbx: FBX Scene Loaded Succesfully
-[2019.09.13-16.18.24:410][ 90]LogFbx: Warning: Triangulating static mesh Plane.004
-[2019.09.13-16.18.24:452][ 90]LogStaticMesh: Building static mesh Tyler_Tree3New_Plane_004...
-[2019.09.13-16.18.24:484][ 90]LogStaticMesh: Built static mesh [0.03s] /Game/TylerMaterials/Tyler_Tree3New_Plane_004.Tyler_Tree3New_Plane_004
-[2019.09.13-16.18.24:610][ 90]LogFbx: Warning: Triangulating static mesh Plane.003
-[2019.09.13-16.18.24:613][ 90]LogStaticMesh: Building static mesh Tyler_Tree3New_Plane_003...
-[2019.09.13-16.18.24:615][ 90]LogStaticMesh: Built static mesh [0.00s] /Game/TylerMaterials/Tyler_Tree3New_Plane_003.Tyler_Tree3New_Plane_003
-[2019.09.13-16.18.24:624][ 90]LogFbx: Warning: Triangulating static mesh Plane.002
-[2019.09.13-16.18.24:625][ 90]LogStaticMesh: Building static mesh Tyler_Tree3New_Plane_002...
-[2019.09.13-16.18.24:627][ 90]LogStaticMesh: Built static mesh [0.00s] /Game/TylerMaterials/Tyler_Tree3New_Plane_002.Tyler_Tree3New_Plane_002
-[2019.09.13-16.18.24:636][ 90]LogFbx: Warning: Triangulating static mesh Plane.001
-[2019.09.13-16.18.24:638][ 90]LogStaticMesh: Building static mesh Tyler_Tree3New_Plane_001...
-[2019.09.13-16.18.24:640][ 90]LogStaticMesh: Built static mesh [0.00s] /Game/TylerMaterials/Tyler_Tree3New_Plane_001.Tyler_Tree3New_Plane_001
-[2019.09.13-16.18.24:649][ 90]LogFbx: Warning: Triangulating static mesh Plane
-[2019.09.13-16.18.25:276][ 90]LogStaticMesh: Building static mesh Tyler_Tree3New_Plane...
-[2019.09.13-16.18.25:365][ 90]LogStaticMesh: Built static mesh [0.09s] /Game/TylerMaterials/Tyler_Tree3New_Plane.Tyler_Tree3New_Plane
-[2019.09.13-16.18.25:390][ 90]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.09.13-16.18.25:403][ 90]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.09.13-16.18.28:724][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2019.09.13-16.18.29:029][386]LogSavePackage: Save=256.19ms
-[2019.09.13-16.18.29:029][386]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_Auto1F1FFB4E449E77F852F3526B1B3828AD0.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap'
-[2019.09.13-16.18.29:033][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap
-[2019.09.13-16.18.29:036][386]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TylerMap1' took 0.355
-[2019.09.13-16.18.29:036][386]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.355
-[2019.09.13-16.18.29:067][386]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tyler_Tree3New_Plane_004] ([1] browsable assets)...
-[2019.09.13-16.18.29:102][386]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TylerMaterials/Tyler_Tree3New_Plane_004.Tyler_Tree3New_Plane_004]
-[2019.09.13-16.18.29:102][386]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tyler_Tree3New_Plane_004]
-[2019.09.13-16.18.29:162][386]LogSavePackage: Save=56.03ms
-[2019.09.13-16.18.29:162][386]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Tree3New_Plane_004_Auto13D053BE340E86390BFFD50B7D823DAB4.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_004_Auto1.uasset'
-[2019.09.13-16.18.29:165][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_004_Auto1.uasset
-[2019.09.13-16.18.29:166][386]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tyler_Tree3New_Plane_003] ([1] browsable assets)...
-[2019.09.13-16.18.29:178][386]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TylerMaterials/Tyler_Tree3New_Plane_003.Tyler_Tree3New_Plane_003]
-[2019.09.13-16.18.29:178][386]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tyler_Tree3New_Plane_003]
-[2019.09.13-16.18.29:200][386]LogSavePackage: Save=17.61ms
-[2019.09.13-16.18.29:200][386]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Tree3New_Plane_003_Auto18D284A5C4DC8EFDF7BAB179869DD6F43.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_003_Auto1.uasset'
-[2019.09.13-16.18.29:203][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_003_Auto1.uasset
-[2019.09.13-16.18.29:204][386]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tyler_Tree3New_Plane_002] ([1] browsable assets)...
-[2019.09.13-16.18.29:217][386]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TylerMaterials/Tyler_Tree3New_Plane_002.Tyler_Tree3New_Plane_002]
-[2019.09.13-16.18.29:217][386]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tyler_Tree3New_Plane_002]
-[2019.09.13-16.18.29:239][386]LogSavePackage: Save=18.16ms
-[2019.09.13-16.18.29:239][386]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Tree3New_Plane_002_Auto19F643F6B408213CD525678A4D651ABF3.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_002_Auto1.uasset'
-[2019.09.13-16.18.29:242][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_002_Auto1.uasset
-[2019.09.13-16.18.29:243][386]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tyler_Tree3New_Plane_001] ([1] browsable assets)...
-[2019.09.13-16.18.29:258][386]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TylerMaterials/Tyler_Tree3New_Plane_001.Tyler_Tree3New_Plane_001]
-[2019.09.13-16.18.29:258][386]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tyler_Tree3New_Plane_001]
-[2019.09.13-16.18.29:282][386]LogSavePackage: Save=20.76ms
-[2019.09.13-16.18.29:282][386]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Tree3New_Plane_001_Auto1987EC97842FE8E13860DE392F4B363B7.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_001_Auto1.uasset'
-[2019.09.13-16.18.29:285][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_001_Auto1.uasset
-[2019.09.13-16.18.29:287][386]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tyler_Tree3New_Plane] ([1] browsable assets)...
-[2019.09.13-16.18.29:302][386]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TylerMaterials/Tyler_Tree3New_Plane.Tyler_Tree3New_Plane]
-[2019.09.13-16.18.29:302][386]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tyler_Tree3New_Plane]
-[2019.09.13-16.18.29:321][386]LogSavePackage: Save=15.08ms
-[2019.09.13-16.18.29:321][386]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Tree3New_Plane_Auto100F08CCA410DF6E62ED049894761456C.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_Auto1.uasset'
-[2019.09.13-16.18.29:324][386]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Plane_Auto1.uasset
-[2019.09.13-16.18.29:324][386]LogFileHelpers: Auto-saving content packages took 0.269
-[2019.09.13-16.18.35:403][949]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane
-[2019.09.13-16.18.36:857][ 96]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane
-[2019.09.13-16.18.47:578][970]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.18.54:065][463]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.19.09:526][617]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.19.16:281][136]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2019.09.13-16.19.20:855][480]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.20.03:195][709]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_001
-[2019.09.13-16.20.04:736][826]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_001
-[2019.09.13-16.20.28:344][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_001)
-[2019.09.13-16.20.36:536][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_001)
-[2019.09.13-16.20.37:271][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_001)
-[2019.09.13-16.20.48:565][139]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.20.53:931][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_001)
-[2019.09.13-16.20.56:750][762]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_001)
-[2019.09.13-16.21.00:439][ 72]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.21.05:382][412]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_002
-[2019.09.13-16.21.06:434][495]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_002
-[2019.09.13-16.23.32:318][413]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.23.36:667][790]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_004
-[2019.09.13-16.23.42:718][346]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_004
-[2019.09.13-16.23.50:012][ 13]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.23.58:947][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_004)
-[2019.09.13-16.24.24:509][406]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_003
-[2019.09.13-16.24.26:197][562]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_003
-[2019.09.13-16.24.38:970][810]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.24.40:392][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_003)
-[2019.09.13-16.25.12:573][989]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.25.36:150][235]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_001)
-[2019.09.13-16.25.39:901][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.26.04:087][889]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.26.10:175][487]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.26.10:996][554]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.26.49:534][267]LogTemp: Repeating last play command: VR Preview
-[2019.09.13-16.26.49:757][267]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.09.13-16.26.49:758][267]LogHMD: Initializing OVRPlugin session
-[2019.09.13-16.26.54:650][267]PIE: New page: PIE session: TylerMap1 (Sep 13, 2019, 8:26:54 AM)
-[2019.09.13-16.26.54:696][267]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TylerMap1
-[2019.09.13-16.26.54:927][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.230456s)
-[2019.09.13-16.26.54:928][267]LogAIModule: Creating AISystem for world TylerMap1
-[2019.09.13-16.26.54:929][267]LogPlayLevel: PIE: World Init took: (0.002213s)
-[2019.09.13-16.26.54:990][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TylerMap1.TylerMap1 to /Game/UEDPIE_0_TylerMap1.TylerMap1 (0.322583s)
-[2019.09.13-16.26.55:456][267]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.09.13-16.26.55:638][267]LogInit: FAudioDevice initialized.
-[2019.09.13-16.27.01:597][267]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2019.09.13-16.27.01:762][267]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2019.09.13-16.27.01:762][267]LogLoad: Game class is 'GameModeBase'
-[2019.09.13-16.27.02:930][267]LogWorld: Bringing World /Game/UEDPIE_0_TylerMap1.TylerMap1 up for play (max tick rate 0) at 2019.09.13-12.27.02
-[2019.09.13-16.27.03:516][267]LogWorld: Bringing up level for play took: 0.587429
-[2019.09.13-16.27.04:517][267]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0021 seconds. Added 11 classes and 0 folders.
-[2019.09.13-16.27.04:843][267]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.27.04:857][267]LogOutputDevice: Warning: 
-
-Script Stack:
-BP_MotionController_C.SetupRoomScaleOutline
-BP_MotionController_C.ExecuteUbergraph_BP_MotionController
-BP_MotionController_C.ReceiveBeginPlay
-MotionControllerPawn_C.ExecuteUbergraph_MotionControllerPawn
-MotionControllerPawn_C.ReceiveBeginPlay
-
-[2019.09.13-16.27.13:407][267]LogStats: FPlatformStackWalk::StackWalkAndDump -  8.538 s
-[2019.09.13-16.27.13:407][267]LogOutputDevice: Error: === Handled ensure: ===
-[2019.09.13-16.27.13:407][267]LogOutputDevice: Error: 
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Core\Private\Math\Matrix.cpp] [Line: 8]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: Stack: 
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:200]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:233]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:360]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Core.dll!FMatrix::ErrorEnsure() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\private\math\matrix.cpp:8]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!FMatrix::InverseFast() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\core\public\math\matrix.inl:272]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!UKismetMathLibrary::MinimumAreaRectangle() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\kismetmathlibrary.cpp:879]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!UKismetMathLibrary::execMinimumAreaRectangle() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\classes\kismet\kismetmathlibrary.h:132]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4461]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:732]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2192]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:856]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:856]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4461]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1334]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::ProcessEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:699]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::ReceiveBeginPlay()
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::BeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:3162]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:3130]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::PostActorConstruction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:2996]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::FinishSpawning() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:2902]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!UGameplayStatics::FinishSpawningActor() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\gameplaystatics.cpp:447]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!UGameplayStatics::execFinishSpawningActor() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\classes\kismet\gameplaystatics.h:40]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4461]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:732]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::ProcessContextOpcode() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2192]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::execLetObj() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:2014]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::CallFunction() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:856]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::ProcessInternal() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:954]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4461]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1334]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::ProcessEvent() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:699]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::ReceiveBeginPlay()
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::BeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:3162]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\actor.cpp:3130]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AWorldSettings::NotifyBeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\worldsettings.cpp:187]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!AGameStateBase::HandleBeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\gamestatebase.cpp:177]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!UWorld::BeginPlay() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\world.cpp:3436]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-Engine.dll!UGameInstance::StartPlayInEditorGameInstance() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\engine\private\gameinstance.cpp:340]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!UEditorEngine::CreatePIEGameInstance() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\playlevel.cpp:3447]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!UEditorEngine::PlayInEditor() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\playlevel.cpp:2535]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!UEditorEngine::StartQueuedPlayMapRequest() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\playlevel.cpp:1218]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\editorengine.cpp:1549]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4+release-4.17+compile\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:402]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3215]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
-[2019.09.13-16.27.13:408][267]LogOutputDevice: Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:134]
-[2019.09.13-16.27.13:409][267]LogOutputDevice: Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.17+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:210]
-[2019.09.13-16.27.13:409][267]LogOutputDevice: Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
-[2019.09.13-16.27.13:409][267]LogOutputDevice: Error: KERNEL32.DLL!0x000000001B602D34
-[2019.09.13-16.27.13:409][267]LogOutputDevice: Error: ntdll.dll!0x000000001DCB0C51
-[2019.09.13-16.27.13:409][267]LogOutputDevice: Error: 
-[2019.09.13-16.27.13:411][267]LogStats:                SubmitErrorReport -  0.000 s
-[2019.09.13-16.27.20:211][267]LogStats:                    SendNewReport -  6.801 s
-[2019.09.13-16.27.20:211][267]LogStats:             FDebug::EnsureFailed - 15.369 s
-[2019.09.13-16.27.20:211][267]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.27.20:211][267]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.27.20:211][267]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.27.20:241][267]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=0.000 Y=-nan(ind) Z=70.000). Resetting to 1.f.
-[2019.09.13-16.27.20:444][267]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.27.20:444][267]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.27.20:444][267]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.27.20:444][267]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.27.20:444][267]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=0.000 Y=-nan(ind) Z=70.000). Resetting to 1.f.
-[2019.09.13-16.27.20:540][267]PIE: Play in editor start time for /Game/UEDPIE_0_TylerMap1 30.129
-[2019.09.13-16.27.21:884][267]LogRenderer: Reallocating scene render targets to support 2720x1600 Format 26 NumSamples 1 (Frame:1).
-[2019.09.13-16.28.13:883][869]LogTemp: Repeating last play command: VR Preview
-[2019.09.13-16.28.13:910][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.09.13-16.28.13:910][869]LogHMD: Initializing OVRPlugin session
-[2019.09.13-16.28.13:949][869]PIE: New page: PIE session: TylerMap1 (Sep 13, 2019, 8:28:13 AM)
-[2019.09.13-16.28.13:949][869]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TylerMap1
-[2019.09.13-16.28.13:961][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011083s)
-[2019.09.13-16.28.13:961][869]LogAIModule: Creating AISystem for world TylerMap1
-[2019.09.13-16.28.13:962][869]LogPlayLevel: PIE: World Init took: (0.000949s)
-[2019.09.13-16.28.13:962][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TylerMap1.TylerMap1 to /Game/UEDPIE_0_TylerMap1.TylerMap1 (0.012484s)
-[2019.09.13-16.28.14:028][869]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.09.13-16.28.14:047][869]LogInit: FAudioDevice initialized.
-[2019.09.13-16.28.14:161][869]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2019.09.13-16.28.14:190][869]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2019.09.13-16.28.14:190][869]LogLoad: Game class is 'GameModeBase'
-[2019.09.13-16.28.14:206][869]LogWorld: Bringing World /Game/UEDPIE_0_TylerMap1.TylerMap1 up for play (max tick rate 0) at 2019.09.13-12.28.14
-[2019.09.13-16.28.14:206][869]LogWorld: Bringing up level for play took: 0.015215
-[2019.09.13-16.28.14:209][869]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.28.14:209][869]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.28.14:209][869]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.28.14:209][869]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.28.14:209][869]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=nan Y=nan Z=70.000). Resetting to 1.f.
-[2019.09.13-16.28.14:210][869]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.28.14:210][869]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.28.14:210][869]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.28.14:210][869]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.28.14:210][869]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=nan Y=nan Z=70.000). Resetting to 1.f.
-[2019.09.13-16.28.14:216][869]PIE: Play in editor start time for /Game/UEDPIE_0_TylerMap1 -0.195
-[2019.09.13-16.28.56:841][908]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.29.12:001][149]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.29.12:561][194]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.29.37:887][286]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.29.45:796][905]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.30.05:955][818]Cmd: TRANSACTION UNDO
-[2019.09.13-16.30.05:955][818]LogEditorTransaction: Undo Move Actors
-[2019.09.13-16.30.06:401][848]Cmd: TRANSACTION UNDO
-[2019.09.13-16.30.06:401][848]LogEditorTransaction: Undo Move Actors
-[2019.09.13-16.30.24:744][550]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_003
-[2019.09.13-16.30.27:005][744]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_003
-[2019.09.13-16.30.29:470][975]Cmd: DELETE
-[2019.09.13-16.30.29:470][975]Cmd: ACTOR DELETE
-[2019.09.13-16.30.29:471][975]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-16.30.29:480][975]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2019.09.13-16.30.30:620][ 93]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_004
-[2019.09.13-16.30.32:385][288]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_004
-[2019.09.13-16.30.32:656][309]Cmd: DELETE
-[2019.09.13-16.30.32:656][309]Cmd: ACTOR DELETE
-[2019.09.13-16.30.32:656][309]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-16.30.32:665][309]LogEditorActor: Deleted 1 Actors (0.009 secs)
-[2019.09.13-16.30.33:778][428]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_001
-[2019.09.13-16.30.35:782][662]LogActorFactory: Actor Factory created Tyler_Tree3New_Plane_001
-[2019.09.13-16.30.41:570][178]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.30.45:298][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_2)
-[2019.09.13-16.30.46:688][601]LogEditorViewport: Clicking on Actor (double click): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.30.47:942][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_2)
-[2019.09.13-16.31.39:473][633]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.31.40:398][718]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_2)
-[2019.09.13-16.31.59:218][531]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2019.09.13-16.32.00:164][573]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.32.00:517][601]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_2)
-[2019.09.13-16.32.03:766][888]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2019.09.13-16.32.14:935][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_2)
-[2019.09.13-16.32.21:965][493]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.32.31:176][376]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.32.39:868][206]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.32.44:863][581]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.32.50:781][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.09.13-16.32.50:979][ 83]LogSavePackage: Save=152.25ms
-[2019.09.13-16.32.50:981][ 83]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap14363F54540FE070C69A0298522FF72BC.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
-[2019.09.13-16.32.50:987][ 83]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
-[2019.09.13-16.32.51:045][ 83]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
-[2019.09.13-16.32.51:135][ 83]LogSavePackage: Save=73.19ms
-[2019.09.13-16.32.51:135][ 83]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltData0713E8704E17D55D56E374B3F8B24928.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
-[2019.09.13-16.32.51:139][ 83]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
-[2019.09.13-16.35.09:866][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.35.11:835][669]Cmd: EDIT COPY
-[2019.09.13-16.35.24:075][876]Cmd: EDIT PASTE
-[2019.09.13-16.35.26:595][147]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
-[2019.09.13-16.35.29:508][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.35.31:018][577]Cmd: EDIT COPY
-[2019.09.13-16.35.31:684][636]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.35.31:990][660]Cmd: EDIT PASTE
-[2019.09.13-16.35.37:416][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_2)
-[2019.09.13-16.35.40:238][453]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.35.42:582][651]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
-[2019.09.13-16.35.47:386][107]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane2)
-[2019.09.13-16.36.16:765][622]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.36.24:920][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_002)
-[2019.09.13-16.36.42:609][893]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.36.44:849][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.36.47:812][387]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.36.52:390][779]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.36.54:966][ 10]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-16.36.58:129][314]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.37.13:901][586]Cmd: EDIT PASTE
-[2019.09.13-16.37.38:067][879]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane_9)
-[2019.09.13-16.37.50:955][ 50]Cmd: EDIT PASTE
-[2019.09.13-16.38.03:432][170]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
-[2019.09.13-16.38.06:028][338]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane4)
-[2019.09.13-16.38.17:518][367]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.09.13-16.38.53:393][587]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
-[2019.09.13-16.39.14:083][288]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.14:083][288]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.18:114][709]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.18:114][709]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.20:031][887]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.20:031][887]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.21:221][990]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.21:221][990]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.31:072][739]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.31:072][739]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.56:594][968]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.56:594][968]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.56:785][973]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.56:785][973]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.56:951][980]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.56:951][980]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.57:107][987]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.57:107][987]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.57:259][997]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.57:259][997]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.57:405][  7]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.57:405][  7]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.57:574][ 19]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.57:574][ 19]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.57:798][ 37]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.57:798][ 37]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.57:938][ 46]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.57:938][ 46]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.58:099][ 57]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.58:099][ 57]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.58:276][ 70]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.58:276][ 70]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.58:459][ 84]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.58:459][ 84]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.58:627][ 96]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.58:627][ 96]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.58:802][109]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.58:802][109]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.58:980][122]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.58:980][122]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.59:151][134]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.59:151][134]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.39.59:527][169]Cmd: TRANSACTION UNDO
-[2019.09.13-16.39.59:527][169]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-16.40.31:157][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.09.13-16.40.31:416][856]LogSavePackage: Save=227.79ms
-[2019.09.13-16.40.31:416][856]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap193A133304ECF318BFD6B01B0E644C625.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
-[2019.09.13-16.40.31:424][856]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
-[2019.09.13-16.40.31:450][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
-[2019.09.13-16.40.31:508][856]LogSavePackage: Save=42.93ms
-[2019.09.13-16.40.31:509][856]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltData98C8160E42D940E98F62C68BC636C5E3.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
-[2019.09.13-16.40.31:513][856]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
-[2019.09.13-16.43.13:659][762]LogTemp: Repeating last play command: VR Preview
-[2019.09.13-16.43.13:674][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.09.13-16.43.13:674][762]LogHMD: Initializing OVRPlugin session
-[2019.09.13-16.43.13:712][762]PIE: New page: PIE session: TylerMap1 (Sep 13, 2019, 8:43:13 AM)
-[2019.09.13-16.43.13:712][762]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TylerMap1
-[2019.09.13-16.43.13:719][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007436s)
-[2019.09.13-16.43.13:720][762]LogAIModule: Creating AISystem for world TylerMap1
-[2019.09.13-16.43.13:720][762]LogPlayLevel: PIE: World Init took: (0.000823s)
-[2019.09.13-16.43.13:720][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TylerMap1.TylerMap1 to /Game/UEDPIE_0_TylerMap1.TylerMap1 (0.008541s)
-[2019.09.13-16.43.13:759][762]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.09.13-16.43.13:779][762]LogInit: FAudioDevice initialized.
-[2019.09.13-16.43.13:898][762]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2019.09.13-16.43.13:927][762]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2019.09.13-16.43.13:927][762]LogLoad: Game class is 'GameModeBase'
-[2019.09.13-16.43.13:931][762]LogWorld: Bringing World /Game/UEDPIE_0_TylerMap1.TylerMap1 up for play (max tick rate 0) at 2019.09.13-12.43.13
-[2019.09.13-16.43.13:931][762]LogWorld: Bringing up level for play took: 0.003766
-[2019.09.13-16.43.13:934][762]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.43.13:934][762]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.43.13:934][762]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.43.13:934][762]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.43.13:934][762]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=0.000 Y=-nan(ind) Z=70.000). Resetting to 1.f.
-[2019.09.13-16.43.13:935][762]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.43.13:935][762]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.43.13:935][762]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.43.13:935][762]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.43.13:935][762]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=0.000 Y=-nan(ind) Z=70.000). Resetting to 1.f.
-[2019.09.13-16.43.13:942][762]PIE: Play in editor start time for /Game/UEDPIE_0_TylerMap1 -0.474
-[2019.09.13-16.43.22:859][633]MapCheck: New page: Map Check
-[2019.09.13-16.43.22:931][633]Cmd: MAP REBUILD ALLVISIBLE
-[2019.09.13-16.43.22:932][633]LogEditorServer: Rebuildmap Clear paths rebuilt
-[2019.09.13-16.43.23:098][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
-[2019.09.13-16.43.23:261][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_20, compiling. 
-[2019.09.13-16.43.23:276][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
-[2019.09.13-16.43.23:300][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BushTextureTyler_Mat, compiling. 
-[2019.09.13-16.43.23:307][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TylerBark_Mat, compiling. 
-[2019.09.13-16.43.23:313][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tree_Mat, compiling. 
-[2019.09.13-16.43.23:320][633]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
-[2019.09.13-16.43.24:858][633]TextureStreamingBuild: Display: Compiling optional shaders took 1.797 seconds.
-[2019.09.13-16.43.24:896][633]LogLevel: Display: Export Material TexCoord Scales took 0.038 seconds.
-[2019.09.13-16.43.24:919][633]TextureStreamingBuild: Display: Build Texture Streaming took 0.014 seconds.
-[2019.09.13-16.43.24:954][633]LightingResults: New page: Lighting Build - Sep 13, 2019, 8:43:24 AM
-[2019.09.13-16.43.25:276][633]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
-[2019.09.13-16.43.25:452][633]LogSwarmInterface: [OpenConnection] Connecting to agent ...
-[2019.09.13-16.43.25:506][633]LogSwarmInterface: [TryOpenConnection] Testing the Agent
-[2019.09.13-16.43.27:977][633]LogSwarmInterface: Error: [TryOpenConnection] Waiting for the agent to start up ...
-[2019.09.13-16.43.28:597][633]LogSwarmInterface: Error: System.Net.Sockets.SocketException (0x80004005): No connection could be made because the target machine actively refused it 127.0.0.1:8008
-
-Server stack trace: 
-   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
-   at System.Net.Sockets.Socket.Connect(EndPoint remoteEP)
-   at System.Runtime.Remoting.Channels.RemoteConnection.CreateNewSocket(EndPoint ipEndPoint)
-   at System.Runtime.Remoting.Channels.SocketCache.GetSocket(String machinePortAndSid, Boolean openNew)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.SendRequestWithRetry(IMessage msg, ITransportHeaders requestHeaders, Stream requestStream)
-   at System.Runtime.Remoting.Channels.Tcp.TcpClientTransportSink.AsyncProcessRequest(IClientChannelSinkStack sinkStack, IMessage msg, ITransportHeaders headers, Stream stream)
-   at System.Runtime.Remoting.Channels.BinaryClientFormatterSink.AsyncProcessMessage(IMessage msg, IMessageSink replySink)
-
-Exception rethrown at [0]: 
-   at System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
-   at System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
-   at NSwarm.IAgentInterfaceWrapper.MethodDelegate.EndInvoke(Hashtable& OutParameters, IAsyncResult result)
-   at NSwarm.FSwarmInterface.TryOpenConnection(FConnectionCallback CallbackFunc, IntPtr CallbackData, ELogFlags LoggingFlags)
-[2019.09.13-16.43.33:816][633]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
-[2019.09.13-16.43.33:816][633]LogSwarmInterface: [TryOpenConnection] Local Process ID is 259364
-[2019.09.13-16.43.34:851][633]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
-[2019.09.13-16.43.34:857][633]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
-[2019.09.13-16.43.34:857][633]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
-[2019.09.13-16.43.34:857][633]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
-[2019.09.13-16.43.34:857][633]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
-[2019.09.13-16.43.34:857][633]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
-[2019.09.13-16.43.35:596][633]Cmd: MAP CHECK DONTDISPLAYDIALOG
-[2019.09.13-16.43.35:596][633]MapCheck: New page: TylerMap1 - Sep 13, 2019, 8:43:35 AM
-[2019.09.13-16.43.35:635][633]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
-[2019.09.13-16.43.35:803][633]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 206.716ms to complete.
-[2019.09.13-16.43.35:837][633]LogEditorBuildUtils: Build time 0:12
-[2019.09.13-16.43.36:315][646]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BushTextureTyler_Mat, compiling. 
-[2019.09.13-16.43.36:335][646]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BushTextureTyler_Mat, compiling. 
-[2019.09.13-16.43.36:341][646]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BushTextureTyler_Mat, compiling. 
-[2019.09.13-16.43.36:363][647]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TylerBark_Mat, compiling. 
-[2019.09.13-16.43.36:376][647]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TylerBark_Mat, compiling. 
-[2019.09.13-16.43.36:388][647]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TylerBark_Mat, compiling. 
-[2019.09.13-16.43.36:414][648]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tree_Mat, compiling. 
-[2019.09.13-16.43.36:426][648]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tree_Mat, compiling. 
-[2019.09.13-16.43.36:436][648]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tree_Mat, compiling. 
-[2019.09.13-16.43.48:386][ 29]Job is a success!
-[2019.09.13-16.43.48:756][ 30]LogMaterial: Warning: Material /Game/TylerMaterials/TylerBark_Mat.TylerBark_Mat needed to have new flag set bUsedWithStaticLighting !
-[2019.09.13-16.43.48:775][ 30]LogMaterial: Missing cached shader map for material TylerBark_Mat, compiling. 
-[2019.09.13-16.43.48:937][ 30]LogMaterial: Warning: Material /Game/TylerMaterials/Tree_Mat.Tree_Mat needed to have new flag set bUsedWithStaticLighting !
-[2019.09.13-16.43.48:958][ 30]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-16.43.49:819][ 30]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
-[2019.09.13-16.43.49:819][ 30]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2019.09.13-16.43.49:819][ 30]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2019.09.13-16.43.49:819][ 30]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2019.09.13-16.43.49:819][ 30]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2019.09.13-16.43.49:819][ 30]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2019.09.13-16.43.49:966][ 30]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2019.09.13-16.43.49:966][ 30]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X256)
-[2019.09.13-16.43.50:198][ 30]Lightmass on MT330D07: 7.66 sec total, 350 ms importing, 325 ms setup, 709 ms photons, 6.20 sec processing, 0 ms extra exporting [69/69 mappings]. Threads: 43.2 sec total, 26.7 sec processing.
-[2019.09.13-16.43.50:244][ 30]LogStaticLightingSystem: Illumination: 25.2 sec (743 ms encoding lightmaps, 133 ms encoding shadowmaps)
-[2019.09.13-16.43.50:244][ 30]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
-[2019.09.13-16.43.50:244][ 30]LogStaticLightingSystem: Shadowmap texture memory: 0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 2 textures
-[2019.09.13-16.43.50:985][ 30]DumpUnbuiltLightIteractions
-[2019.09.13-16.43.50:985][ 30]Lights with unbuilt interactions: 0
-[2019.09.13-16.43.50:985][ 30]
-[2019.09.13-16.43.50:985][ 30]Primitives with unbuilt interactions: 0
-[2019.09.13-16.43.51:014][ 31]Cmd: MAP CHECK NOTIFYRESULTS
-[2019.09.13-16.43.51:015][ 31]MapCheck: New page: TylerMap1 - Sep 13, 2019, 8:43:51 AM
-[2019.09.13-16.43.51:239][ 31]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 224.918ms to complete.
-[2019.09.13-16.45.28:198][797]LogTemp: Repeating last play command: VR Preview
-[2019.09.13-16.45.28:212][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.09.13-16.45.28:212][797]LogHMD: Initializing OVRPlugin session
-[2019.09.13-16.45.28:251][797]PIE: New page: PIE session: TylerMap1 (Sep 13, 2019, 8:45:28 AM)
-[2019.09.13-16.45.28:251][797]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TylerMap1
-[2019.09.13-16.45.28:260][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009057s)
-[2019.09.13-16.45.28:261][797]LogAIModule: Creating AISystem for world TylerMap1
-[2019.09.13-16.45.28:262][797]LogPlayLevel: PIE: World Init took: (0.001095s)
-[2019.09.13-16.45.28:262][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TylerMap1.TylerMap1 to /Game/UEDPIE_0_TylerMap1.TylerMap1 (0.010568s)
-[2019.09.13-16.45.28:298][797]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.09.13-16.45.28:313][797]LogInit: FAudioDevice initialized.
-[2019.09.13-16.45.28:431][797]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2019.09.13-16.45.28:460][797]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2019.09.13-16.45.28:460][797]LogLoad: Game class is 'GameModeBase'
-[2019.09.13-16.45.28:464][797]LogWorld: Bringing World /Game/UEDPIE_0_TylerMap1.TylerMap1 up for play (max tick rate 0) at 2019.09.13-12.45.28
-[2019.09.13-16.45.28:464][797]LogWorld: Bringing up level for play took: 0.003625
-[2019.09.13-16.45.28:467][797]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.45.28:467][797]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.45.28:467][797]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.45.28:467][797]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.45.28:467][797]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=0.000 Y=-nan(ind) Z=70.000). Resetting to 1.f.
-[2019.09.13-16.45.28:468][797]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.45.28:468][797]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.45.28:468][797]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.45.28:468][797]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.45.28:468][797]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=0.000 Y=-nan(ind) Z=70.000). Resetting to 1.f.
-[2019.09.13-16.45.28:477][797]PIE: Play in editor start time for /Game/UEDPIE_0_TylerMap1 0.059
-[2019.09.13-16.46.34:385][683]LogTemp: Repeating last play command: VR Preview
-[2019.09.13-16.46.34:398][683]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.09.13-16.46.34:398][683]LogHMD: Initializing OVRPlugin session
-[2019.09.13-16.46.34:439][683]PIE: New page: PIE session: TylerMap1 (Sep 13, 2019, 8:46:34 AM)
-[2019.09.13-16.46.34:439][683]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TylerMap1
-[2019.09.13-16.46.34:447][683]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007743s)
-[2019.09.13-16.46.34:447][683]LogAIModule: Creating AISystem for world TylerMap1
-[2019.09.13-16.46.34:447][683]LogPlayLevel: PIE: World Init took: (0.000644s)
-[2019.09.13-16.46.34:448][683]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TylerMap1.TylerMap1 to /Game/UEDPIE_0_TylerMap1.TylerMap1 (0.008678s)
-[2019.09.13-16.46.34:481][683]LogInit: XAudio2 using 'Headphones (Rift Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.09.13-16.46.34:496][683]LogInit: FAudioDevice initialized.
-[2019.09.13-16.46.34:614][683]LogHMD: Allocating Oculus 2720 x 1600 rendertarget swapchain
-[2019.09.13-16.46.34:643][683]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2019.09.13-16.46.34:643][683]LogLoad: Game class is 'GameModeBase'
-[2019.09.13-16.46.34:646][683]LogWorld: Bringing World /Game/UEDPIE_0_TylerMap1.TylerMap1 up for play (max tick rate 0) at 2019.09.13-12.46.34
-[2019.09.13-16.46.34:647][683]LogWorld: Bringing up level for play took: 0.002853
-[2019.09.13-16.46.34:649][683]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.46.34:649][683]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.46.34:649][683]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.46.34:649][683]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.46.34:649][683]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=nan Y=nan Z=70.000). Resetting to 1.f.
-[2019.09.13-16.46.34:650][683]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.46.34:650][683]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.46.34:650][683]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.46.34:650][683]LogUnrealMath: Error: FMatrix::InverseFast(), trying to invert a NIL matrix, this results in NaNs! Use Inverse() instead.
-[2019.09.13-16.46.34:650][683]LogBlueprint: Warning: SetRelativeScale3D : Invalid Scale entered (X=nan Y=nan Z=70.000). Resetting to 1.f.
-[2019.09.13-16.46.34:656][683]PIE: Play in editor start time for /Game/UEDPIE_0_TylerMap1 0.238
-[2019.09.13-16.47.12:982][198]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
-[2019.09.13-16.47.28:085][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.09.13-16.47.28:288][632]LogSavePackage: Save=174.16ms
-[2019.09.13-16.47.28:288][632]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap14CC4867242DDFC84FD9DE18548127976.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
-[2019.09.13-16.47.28:294][632]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
-[2019.09.13-16.47.28:320][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
-[2019.09.13-16.47.28:475][632]LogSavePackage: Save=139.73ms
-[2019.09.13-16.47.28:476][632]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltDataCB0C92844652CB38F0FCE1BA8E8648BA.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
-[2019.09.13-16.47.28:483][632]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
-[2019.09.13-16.47.36:164][521]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
-[2019.09.13-16.47.54:229][190]Cmd: TRANSACTION UNDO
-[2019.09.13-16.47.54:229][190]LogEditorTransaction: Undo Move Actors
-[2019.09.13-16.57.28:576][971]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2019.09.13-16.57.28:855][971]LogSavePackage: Save=254.48ms
-[2019.09.13-16.57.28:855][971]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_Auto21D361DDF42666C5C21D4188BD479FD78.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto2.umap'
-[2019.09.13-16.57.28:869][971]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto2.umap
-[2019.09.13-16.57.28:874][971]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TylerMap1' took 0.315
-[2019.09.13-16.57.28:874][971]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.315
-[2019.09.13-16.57.28:877][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/TylerBark_Mat] ([1] browsable assets)...
-[2019.09.13-16.57.28:901][971]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TylerMaterials/TylerBark_Mat.TylerBark_Mat]
-[2019.09.13-16.57.28:901][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/TylerBark_Mat]
-[2019.09.13-16.57.29:009][971]LogSavePackage: Save=73.28ms
-[2019.09.13-16.57.29:009][971]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerBark_Mat_Auto2EA59E4BE484A62BB3E15A6BDDC2E1645.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/TylerBark_Mat_Auto2.uasset'
-[2019.09.13-16.57.29:012][971]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/TylerBark_Mat_Auto2.uasset
-[2019.09.13-16.57.29:013][971]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tree_Mat] ([1] browsable assets)...
-[2019.09.13-16.57.29:025][971]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TylerMaterials/Tree_Mat.Tree_Mat]
-[2019.09.13-16.57.29:026][971]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tree_Mat]
-[2019.09.13-16.57.29:062][971]LogSavePackage: Save=20.07ms
-[2019.09.13-16.57.29:062][971]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tree_Mat_Auto23E2FF23D45AC9575755966B771344BAF.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tree_Mat_Auto2.uasset'
-[2019.09.13-16.57.29:065][971]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tree_Mat_Auto2.uasset
-[2019.09.13-16.57.29:065][971]LogFileHelpers: Auto-saving content packages took 0.190
-[2019.09.13-17.25.03:702][259]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane2)
-[2019.09.13-17.25.05:050][380]Cmd: DELETE
-[2019.09.13-17.25.05:050][380]Cmd: ACTOR DELETE
-[2019.09.13-17.25.05:052][380]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.05:052][380]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.05:053][380]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.05:053][380]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.05:053][380]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.05:053][380]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.05:063][380]LogEditorActor: Deleted 6 Actors (0.012 secs)
-[2019.09.13-17.25.05:939][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-17.25.06:153][496]Cmd: DELETE
-[2019.09.13-17.25.06:153][496]Cmd: ACTOR DELETE
-[2019.09.13-17.25.06:153][496]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.06:153][496]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.06:154][496]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.06:154][496]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.06:154][496]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.06:154][496]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.06:163][496]LogEditorActor: Deleted 6 Actors (0.010 secs)
-[2019.09.13-17.25.06:730][561]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
-[2019.09.13-17.25.06:947][575]Cmd: DELETE
-[2019.09.13-17.25.06:947][575]Cmd: ACTOR DELETE
-[2019.09.13-17.25.06:947][575]LogEditorActor: Deleted Actor: NavMeshBoundsVolume
-[2019.09.13-17.25.06:957][575]LogEditorActor: Deleted 1 Actors (0.010 secs)
-[2019.09.13-17.25.07:524][640]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane)
-[2019.09.13-17.25.07:908][673]Cmd: DELETE
-[2019.09.13-17.25.07:908][673]Cmd: ACTOR DELETE
-[2019.09.13-17.25.07:908][673]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.07:908][673]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.07:909][673]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.07:909][673]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.07:909][673]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.07:909][673]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.07:918][673]LogEditorActor: Deleted 6 Actors (0.010 secs)
-[2019.09.13-17.25.09:827][882]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane3)
-[2019.09.13-17.25.10:185][910]Cmd: DELETE
-[2019.09.13-17.25.10:185][910]Cmd: ACTOR DELETE
-[2019.09.13-17.25.10:186][910]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.10:186][910]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.10:186][910]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.10:186][910]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.10:186][910]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.10:186][910]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.10:196][910]LogEditorActor: Deleted 6 Actors (0.010 secs)
-[2019.09.13-17.25.10:868][986]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Tree3New_Plane4)
-[2019.09.13-17.25.11:121][  1]Cmd: DELETE
-[2019.09.13-17.25.11:121][  1]Cmd: ACTOR DELETE
-[2019.09.13-17.25.11:122][  1]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.11:122][  1]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.11:122][  1]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.11:123][  1]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.11:123][  1]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.11:123][  1]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.09.13-17.25.11:132][  1]LogEditorActor: Deleted 6 Actors (0.011 secs)
-[2019.09.13-17.25.53:458][118]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.09.13-17.26.51:361][564]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Foliage/Tyler_Tree3New.obj)
-[2019.09.13-17.26.51:448][564]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Foliage/Tyler_Tree3New.obj
-[2019.09.13-17.26.51:522][564]LogFbx: FBX Scene Loaded Succesfully
-[2019.09.13-17.26.53:364][564]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Foliage/Tyler_Tree3New.obj
-[2019.09.13-17.26.53:414][564]LogFbx: FBX Scene Loaded Succesfully
-[2019.09.13-17.26.53:427][564]LogLinker: Can't find file '/Game/TylerMaterials/None'
-[2019.09.13-17.26.53:428][564]LogLinker: Can't find file '/Game/TylerMaterials/None'
-[2019.09.13-17.26.53:479][564]LogTexture: Display: Building textures: TylerTree2 (BGRA8, 765X1024)
-[2019.09.13-17.26.53:582][564]LogMaterial: Missing cached shader map for material Material_0, compiling. 
-[2019.09.13-17.26.53:602][564]LogLinker: Can't find file '/Game/TylerMaterials/None_TylerTreeTexture__1__png'
-[2019.09.13-17.26.53:603][564]LogLinker: Can't find file '/Game/TylerMaterials/None_TylerTreeTexture__1__png'
-[2019.09.13-17.26.53:653][564]LogTexture: Display: Building textures: TylerBark (AutoDXT, 512X1024)
-[2019.09.13-17.26.54:066][564]LogMaterial: Missing cached shader map for material None_TylerTreeTexture__1__png, compiling. 
-[2019.09.13-17.26.54:088][564]LogFbx: Warning: Triangulating static mesh default
-[2019.09.13-17.26.54:802][564]LogStaticMesh: Building static mesh Tyler_Tree3New...
-[2019.09.13-17.26.54:917][564]LogStaticMesh: Built static mesh [0.12s] /Game/TylerMaterials/Tyler_Tree3New.Tyler_Tree3New
-[2019.09.13-17.26.58:125][825]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2019.09.13-17.26.58:271][825]LogSavePackage: Save=126.08ms
-[2019.09.13-17.26.58:271][825]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_Auto310DFD7AC4149C5AFF861C28BBA9A2BBC.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto3.umap'
-[2019.09.13-17.26.58:274][825]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto3.umap
-[2019.09.13-17.26.58:279][825]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TylerMap1' took 0.170
-[2019.09.13-17.26.58:279][825]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.170
-[2019.09.13-17.26.58:281][825]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tyler_Tree3New] ([1] browsable assets)...
-[2019.09.13-17.26.58:290][825]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TylerMaterials/Tyler_Tree3New.Tyler_Tree3New]
-[2019.09.13-17.26.58:290][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tyler_Tree3New]
-[2019.09.13-17.26.58:311][825]LogSavePackage: Save=17.74ms
-[2019.09.13-17.26.58:311][825]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Tree3New_Auto35DD82D514B87252919AE34B55EF81026.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Auto3.uasset'
-[2019.09.13-17.26.58:315][825]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Tree3New_Auto3.uasset
-[2019.09.13-17.26.58:316][825]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/TylerBark] ([1] browsable assets)...
-[2019.09.13-17.26.58:321][825]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TylerMaterials/TylerBark.TylerBark]
-[2019.09.13-17.26.58:321][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/TylerBark]
-[2019.09.13-17.26.58:349][825]LogSavePackage: Save=9.94ms
-[2019.09.13-17.26.58:350][825]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerBark_Auto34ED216204BE16358C47CE29B3AEFBF76.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/TylerBark_Auto3.uasset'
-[2019.09.13-17.26.58:352][825]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/TylerBark_Auto3.uasset
-[2019.09.13-17.26.58:353][825]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/TylerTree2] ([1] browsable assets)...
-[2019.09.13-17.26.58:359][825]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TylerMaterials/TylerTree2.TylerTree2]
-[2019.09.13-17.26.58:359][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/TylerTree2]
-[2019.09.13-17.26.58:388][825]LogSavePackage: Save=11.60ms
-[2019.09.13-17.26.58:388][825]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerTree2_Auto33712058E42A74843958540BAA6CE3836.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/TylerTree2_Auto3.uasset'
-[2019.09.13-17.26.58:391][825]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/TylerTree2_Auto3.uasset
-[2019.09.13-17.26.58:392][825]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/None] ([1] browsable assets)...
-[2019.09.13-17.26.58:403][825]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TylerMaterials/None.Material_0]
-[2019.09.13-17.26.58:403][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/None]
-[2019.09.13-17.26.58:425][825]LogSavePackage: Save=19.20ms
-[2019.09.13-17.26.58:425][825]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/None_Auto3B24782EF48BBC2ABFAE16B9FF504E9BE.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_Auto3.uasset'
-[2019.09.13-17.26.58:428][825]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_Auto3.uasset
-[2019.09.13-17.26.58:429][825]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/None_TylerTreeTexture__1__png] ([1] browsable assets)...
-[2019.09.13-17.26.58:440][825]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TylerMaterials/None_TylerTreeTexture__1__png.None_TylerTreeTexture__1__png]
-[2019.09.13-17.26.58:440][825]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/None_TylerTreeTexture__1__png]
-[2019.09.13-17.26.58:464][825]LogSavePackage: Save=20.51ms
-[2019.09.13-17.26.58:464][825]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/None_TylerTreeTexture__1__png_Auto3437A0CAC4B8C05C1DE008FBABF3FC404.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_TylerTreeTexture__1__png_Auto3.uasset'
-[2019.09.13-17.26.58:467][825]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_TylerTreeTexture__1__png_Auto3.uasset
-[2019.09.13-17.26.58:468][825]LogFileHelpers: Auto-saving content packages took 0.188
-[2019.09.13-17.27.35:808][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMaterials/Tyler_Tree3New" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Tree3New.uasset" SILENT=true
-[2019.09.13-17.27.35:831][222]LogSavePackage: Save=18.31ms
-[2019.09.13-17.27.35:831][222]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Tree3NewA559A7EE43C45932404EAC9CE19BF432.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Tree3New.uasset'
-[2019.09.13-17.27.35:836][222]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Tree3New.uasset
-[2019.09.13-17.27.42:179][876]LogActorFactory: Actor Factory created Tyler_Tree3New
-[2019.09.13-17.27.48:242][538]LogMaterial: Warning: Material /Game/TylerMaterials/Tree_Mat.Tree_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2019.09.13-17.27.48:255][538]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.27.48:334][538]LogMaterial: Warning: Material /Game/TylerMaterials/None_TylerTreeTexture__1__png.None_TylerTreeTexture__1__png needed to have new flag set bUsedWithInstancedStaticMeshes !
-[2019.09.13-17.27.48:336][538]LogMaterial: Missing cached shader map for material None_TylerTreeTexture__1__png, compiling. 
-[2019.09.13-17.28.06:321][878]Cmd: TRANSACTION UNDO
-[2019.09.13-17.28.06:322][878]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-17.28.26:045][870]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0014 seconds. Added 1 classes and 0 folders.
-[2019.09.13-17.28.26:056][870]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.28.26:338][870]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.28.26:399][870]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.28.26:458][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2019.09.13-17.28.26:471][870]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant_0, compiling. 
-[2019.09.13-17.28.26:553][870]LogSlate: Took 0.020563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.09.13-17.28.29:961][ 22]MaterialEditorStats: Base pass shader: 134 instructions
-[2019.09.13-17.28.29:961][ 22]MaterialEditorStats: Vertex shader: 87 instructions
-[2019.09.13-17.28.29:961][ 22]MaterialEditorStats: Texture samplers: 4/16
-[2019.09.13-17.28.29:961][ 22]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.09.13-17.28.34:472][528]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.28.34:520][528]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.28.40:457][181]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.28.40:508][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2019.09.13-17.28.43:703][496]MaterialEditorStats: Base pass shader: 138 instructions
-[2019.09.13-17.28.43:703][496]MaterialEditorStats: Vertex shader: 87 instructions
-[2019.09.13-17.28.43:703][496]MaterialEditorStats: Texture samplers: 4/16
-[2019.09.13-17.28.43:703][496]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.09.13-17.28.47:398][934]LogMaterialEditor: Saving and Compiling material Tree_Mat
-[2019.09.13-17.28.48:285][934]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.28.48:376][934]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.28.48:532][934]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.28.48:681][934]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tree_Mat, compiling. 
-[2019.09.13-17.28.50:725][934]TextureStreamingBuild: Display: Compiling optional shaders took 2.056 seconds.
-[2019.09.13-17.28.58:444][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMaterials/Tree_Mat" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tree_Mat.uasset" SILENT=true
-[2019.09.13-17.28.58:481][934]LogSavePackage: Save=16.57ms
-[2019.09.13-17.28.58:481][934]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tree_Mat8DE2B41141A9E66AE13768807FF6D9FC.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tree_Mat.uasset'
-[2019.09.13-17.28.58:488][934]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tree_Mat.uasset
-[2019.09.13-17.28.58:496][934]MaterialEditorStats: Base pass shader: 138 instructions
-[2019.09.13-17.28.58:496][934]MaterialEditorStats: Vertex shader: 125 instructions
-[2019.09.13-17.28.58:496][934]MaterialEditorStats: Texture samplers: 4/16
-[2019.09.13-17.28.58:496][934]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.09.13-17.29.57:057][305]Cmd: TRANSACTION UNDO
-[2019.09.13-17.29.57:057][305]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-17.29.57:187][305]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.30.00:485][493]MaterialEditorStats: Base pass shader: 138 instructions
-[2019.09.13-17.30.00:485][493]MaterialEditorStats: Vertex shader: 87 instructions
-[2019.09.13-17.30.00:485][493]MaterialEditorStats: Texture samplers: 4/16
-[2019.09.13-17.30.00:485][493]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.09.13-17.30.03:282][731]Cmd: TRANSACTION UNDO
-[2019.09.13-17.30.03:282][731]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-17.30.03:408][731]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.30.05:985][877]MaterialEditorStats: Base pass shader: 138 instructions
-[2019.09.13-17.30.05:985][877]MaterialEditorStats: Vertex shader: 87 instructions
-[2019.09.13-17.30.05:985][877]MaterialEditorStats: Texture samplers: 4/16
-[2019.09.13-17.30.05:985][877]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.09.13-17.30.25:936][918]Cmd: TRANSACTION UNDO
-[2019.09.13-17.30.25:936][918]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-17.30.26:066][918]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.30.29:431][115]MaterialEditorStats: Base pass shader: 138 instructions
-[2019.09.13-17.30.29:431][115]MaterialEditorStats: Vertex shader: 87 instructions
-[2019.09.13-17.30.29:431][115]MaterialEditorStats: Texture samplers: 4/16
-[2019.09.13-17.30.29:431][115]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.09.13-17.30.32:915][419]Cmd: TRANSACTION UNDO
-[2019.09.13-17.30.32:915][419]LogEditorTransaction: Undo Foliage Editing
-[2019.09.13-17.30.33:039][419]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.09.13-17.30.35:635][536]MaterialEditorStats: Base pass shader: 138 instructions
-[2019.09.13-17.30.35:635][536]MaterialEditorStats: Vertex shader: 87 instructions
-[2019.09.13-17.30.35:635][536]MaterialEditorStats: Texture samplers: 4/16
-[2019.09.13-17.30.35:635][536]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2019.09.13-17.30.44:301][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.09.13-17.30.44:451][311]LogSavePackage: Save=122.97ms
-[2019.09.13-17.30.44:451][311]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1EEAD4E4442805BBB83973CBC9BA0E8F7.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
-[2019.09.13-17.30.44:471][311]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
-[2019.09.13-17.30.44:502][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
-[2019.09.13-17.30.44:661][311]LogSavePackage: Save=135.24ms
-[2019.09.13-17.30.44:661][311]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltDataDB1F0D5D49EF1D9B0DB95EA6C90E7B4B.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
-[2019.09.13-17.30.44:664][311]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
-[2019.09.13-17.40.44:804][180]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TylerMap1' took 0.010
-[2019.09.13-17.40.44:806][180]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/None_TylerTreeTexture__1__png] ([1] browsable assets)...
-[2019.09.13-17.40.44:821][180]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TylerMaterials/None_TylerTreeTexture__1__png.None_TylerTreeTexture__1__png]
-[2019.09.13-17.40.44:821][180]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/None_TylerTreeTexture__1__png]
-[2019.09.13-17.40.44:841][180]LogSavePackage: Save=16.37ms
-[2019.09.13-17.40.44:841][180]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/None_TylerTreeTexture__1__png_Auto4335F30A346C6F678D6C4D6AB11E9E590.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_TylerTreeTexture__1__png_Auto4.uasset'
-[2019.09.13-17.40.44:844][180]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_TylerTreeTexture__1__png_Auto4.uasset
-[2019.09.13-17.40.44:844][180]LogFileHelpers: Auto-saving content packages took 0.039
-[2019.09.13-17.55.43:373][802]LogWindows: LaunchURL http://docs.unrealengine.com/latest/INT/Engine/Rendering/LightingAndShadows/LightTypes/Point/index.html?utm_source=editor&utm_medium=docs&utm_campaign=doc_anchors
+[2019.09.18-21.25.25:217][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.18-21.25.25:217][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.18-21.25.25:228][  0]LogInit: Computer: MT330D11
+[2019.09.18-21.25.25:228][  0]LogInit: User: liu7864
+[2019.09.18-21.25.25:228][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.18-21.25.25:228][  0]LogInit: High frequency timer resolution =3.410071 MHz
+[2019.09.18-21.25.25:228][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.09.18-21.25.25:228][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.18-21.25.25:228][  0]LogMemory: Process Physical Memory: 286.16 MB used, 286.16 MB peak
+[2019.09.18-21.25.25:229][  0]LogMemory: Process Virtual Memory: 286.67 MB used, 286.67 MB peak
+[2019.09.18-21.25.25:229][  0]LogMemory: Physical Memory: 7212.45 MB used,  9093.67 MB free, 16306.12 MB total
+[2019.09.18-21.25.25:229][  0]LogMemory: Virtual Memory: 4844.07 MB used,  9093.67 MB free, 134217728.00 MB total
+[2019.09.18-21.25.25:873][  0]LogInit: Using OS detected language (en-US).
+[2019.09.18-21.25.25:873][  0]LogInit: Using OS detected locale (en-US).
+[2019.09.18-21.25.25:879][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.18-21.25.27:031][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.18-21.25.27:136][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.09.18-21.25.27:136][  0]LogD3D11RHI:       8079/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.09.18-21.25.27:139][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.18-21.25.27:139][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.18-21.25.27:139][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.18-21.25.27:167][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.18-21.25.27:167][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.18-21.25.27:167][  0]LogWindows: EnumDisplayDevices:
+[2019.09.18-21.25.27:167][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.09.18-21.25.27:167][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.09.18-21.25.27:168][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.09.18-21.25.27:168][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.09.18-21.25.27:168][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.09.18-21.25.27:168][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.09.18-21.25.27:168][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.09.18-21.25.27:168][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.09.18-21.25.27:168][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.09.18-21.25.27:241][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.18-21.25.27:255][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.18-21.25.27:301][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Intermediate/Shaders/WorkingDirectory/27704/).
+[2019.09.18-21.25.27:301][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/liu.7864/AppData/Local/Temp/3/UnrealShaderWorkingDir/B29D6D82462546D355A77D8ED4AAD68D/'.
+[2019.09.18-21.25.27:301][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.18-21.25.29:160][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.09.18-21.25.29:335][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.09.18-21.25.29:508][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.09.18-21.25.29:693][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.09.18-21.25.29:886][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.09.18-21.25.30:097][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.09.18-21.25.30:286][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.09.18-21.25.30:460][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.09.18-21.25.30:627][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.09.18-21.25.30:805][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.18-21.25.30:975][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.09.18-21.25.31:146][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.09.18-21.25.31:313][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.09.18-21.25.31:481][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.09.18-21.25.31:649][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.09.18-21.25.32:010][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.09.18-21.25.32:010][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.09.18-21.25.32:175][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.09.18-21.25.32:483][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.18-21.25.32:579][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.18-21.25.32:746][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.09.18-21.25.32:916][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.09.18-21.25.33:085][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.09.18-21.25.33:254][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.09.18-21.25.33:254][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.18-21.25.35:322][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.18-21.25.35:465][  0]LogDerivedDataCache: Loaded boot cache 0.14s 93MB C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2019.09.18-21.25.35:465][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2019.09.18-21.25.35:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.18-21.25.35:466][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.18-21.25.35:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.18-21.25.35:466][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.18-21.25.35:482][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.18-21.25.35:496][  0]LogDerivedDataCache: Using Local data cache path C:/Users/liu.7864/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.18-21.25.35:506][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.18-21.25.35:507][  0]LogSlate: Using Freetype 2.6.0
+[2019.09.18-21.25.35:508][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.18-21.25.35:508][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.18-21.25.35:921][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2019.09.18-21.25.36:185][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.18-21.25.36:464][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.09.18-21.25.37:487][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.09.18-21.25.37:660][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.09.18-21.25.37:660][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.18-21.25.37:660][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.09.18-21.25.37:660][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.09.18-21.25.37:660][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.09.18-21.25.38:326][  0]LogNetVersion: DemoCornholeTyler , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4077194088)
+[2019.09.18-21.25.38:819][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.057235 seconds
+[2019.09.18-21.25.38:827][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2019.09.18-21.25.38:827][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2019.09.18-21.25.38:827][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.18-21.25.39:092][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.09.18-21.25.46:752][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.18-21.25.46:895][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.18-21.25.49:241][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.09.18-21.25.50:746][  0]SourceControl: Source control is disabled
+[2019.09.18-21.25.50:746][  0]SourceControl: Source control is disabled
+[2019.09.18-21.25.50:954][  0]SourceControl: Source control is disabled
+[2019.09.18-21.25.51:164][  0]SourceControl: Source control is disabled
+[2019.09.18-21.25.53:662][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.18-21.25.54:671][  0]LogOcInput: OculusInput pre-init called
+[2019.09.18-21.25.55:586][  0]LogEngine: Initializing Engine...
+[2019.09.18-21.25.55:587][  0]LogHMD: Oculus plugin initialized. Version: 4.17.2-3658906+++UE4+Release-4.17, OVRPlugin: 1.15.0
+[2019.09.18-21.25.55:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.18-21.25.55:853][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.18-21.25.56:384][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.18-21.25.56:443][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.18-21.25.56:495][  0]LogInit: FAudioDevice initialized.
+[2019.09.18-21.25.56:685][  0]LogDerivedDataCache: Saved boot cache 0.19s 93MB C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2019.09.18-21.25.56:703][  0]LogInit: Texture streaming: Enabled
+[2019.09.18-21.25.57:186][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.18-21.25.57:186][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={653ADBB8-4826-47F7-1873-0AA624439F75}
+[2019.09.18-21.25.58:051][  0]LogInit: Transaction tracking system initialized
+[2019.09.18-21.25.59:279][  0]BlueprintLog: New page: Editor Load
+[2019.09.18-21.26.02:949][  0]LocalizationService: Localization service is disabled
+[2019.09.18-21.26.04:921][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.09.18-21.26.04:921][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.09.18-21.26.04:922][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2019.09.18-21.26.05:616][  0]LogConsoleResponse: Display: 
+[2019.09.18-21.26.06:016][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.18-21.26.06:016][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.18-21.26.06:017][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.09.18-21.26.07:121][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/' took 0.03s
+[2019.09.18-21.26.10:231][  0]SourceControl: Source control is disabled
+[2019.09.18-21.26.10:232][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.18-21.26.10:232][  0]LightingResults: New page: Lighting Build
+[2019.09.18-21.26.10:397][  0]MapCheck: New page: Map Check
+[2019.09.18-21.26.10:397][  0]LightingResults: New page: Lighting Build
+[2019.09.18-21.26.10:888][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None_TylerTreeTexture__1__png'
+[2019.09.18-21.26.10:888][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None_TylerTreeTexture__1__png' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Tree3New.uasset.
+[2019.09.18-21.26.10:888][  0]LoadErrors: Error: /Game/TylerMaterials/Tyler_Tree3New : Can't find file for asset. /Game/TylerMaterials/None_TylerTreeTexture__1__png
+[2019.09.18-21.26.10:892][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None_TylerTreeTexture__1__png'
+[2019.09.18-21.26.10:892][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None_TylerTreeTexture__1__png' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Tree3New.uasset.
+[2019.09.18-21.26.10:893][  0]LoadErrors: Error: /Game/TylerMaterials/Tyler_Tree3New : Can't find file for asset. /Game/TylerMaterials/None_TylerTreeTexture__1__png
+[2019.09.18-21.26.10:913][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None_TylerTreeTexture__1__png'
+[2019.09.18-21.26.10:913][  0]LoadErrors: Failed to load /Game/TylerMaterials/None_TylerTreeTexture__1__png.None_TylerTreeTexture__1__png Referenced by Tyler_Tree3New
+[2019.09.18-21.26.10:914][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None_TylerTreeTexture__1__png' while loading NULL.
+[2019.09.18-21.26.10:914][  0]LoadErrors: Failed to load /Game/TylerMaterials/None_TylerTreeTexture__1__png.None_TylerTreeTexture__1__png Referenced by Tyler_Tree3New
+[2019.09.18-21.26.10:914][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None_TylerTreeTexture__1__png'
+[2019.09.18-21.26.10:914][  0]LoadErrors: Failed to load /Game/TylerMaterials/None_TylerTreeTexture__1__png.None_TylerTreeTexture__1__png Referenced by Tyler_Tree3New
+[2019.09.18-21.26.10:914][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None_TylerTreeTexture__1__png' while loading NULL.
+[2019.09.18-21.26.10:914][  0]LoadErrors: Failed to load /Game/TylerMaterials/None_TylerTreeTexture__1__png.None_TylerTreeTexture__1__png Referenced by Tyler_Tree3New
+[2019.09.18-21.26.11:190][  0]LogAIModule: Creating AISystem for world TylerMap1
+[2019.09.18-21.26.11:210][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.18-21.26.11:226][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.18-21.26.11:385][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 158.955ms to complete.
+[2019.09.18-21.26.11:386][  0]LogFileHelpers: Loading map 'TylerMap1' took 1.153
+[2019.09.18-21.26.11:643][  0]LogCollectionManager: Loaded 0 collections in 0.011215 seconds
+[2019.09.18-21.26.11:857][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Saved/Collections/' took 0.01s
+[2019.09.18-21.26.11:857][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Developers/liu7864/Collections/' took 0.01s
+[2019.09.18-21.26.11:857][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Collections/' took 0.01s
+[2019.09.18-21.26.11:857][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.09.18-21.26.11:868][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2386 classes and 500 folders.
+[2019.09.18-21.26.12:131][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.09.18-21.26.12:241][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.09.18-21.26.12:413][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.09.18-21.26.12:462][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.18-21.26.12:466][  0]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.18-21.26.12:475][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.18-21.26.12:621][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 26 NumSamples 1 (Frame:1).
+[2019.09.18-21.26.13:039][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.09.18-21.26.13:040][  0]LogLoad: (Engine Initialization) Total time: 52.77 seconds
+[2019.09.18-21.26.13:040][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.18-21.26.13:040][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.09.18-21.26.13:050][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.09.18-21.26.13:063][  0]LogOcInput: OculusInput is initialized
+[2019.09.18-21.26.13:086][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.18-21.26.13:172][  1]LogAssetRegistry: Asset discovery search completed in 37.2739 seconds
+[2019.09.18-21.26.13:175][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.09.18-21.26.13:175][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000082 seconds (updated 0 objects)
+[2019.09.18-21.26.26:747][721]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.09.18-21.26.26:764][721]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Tyler_Fireplace.obj)
+[2019.09.18-21.26.26:788][721]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Tyler_Fireplace.obj
+[2019.09.18-21.26.26:810][721]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.18-21.26.27:985][721]LogFbx: Loading FBX Scene from ../../../../../../Users/Public/Public Projects/MMC-Assets/Models/Outdoors/Tyler_Fireplace.obj
+[2019.09.18-21.26.28:007][721]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.18-21.26.28:007][721]LogLinker: Can't find file '/Game/TylerMaterials/None_Tyler_Burntwood_jpg'
+[2019.09.18-21.26.28:007][721]LogLinker: Can't find file '/Game/TylerMaterials/None_Tyler_Burntwood_jpg'
+[2019.09.18-21.26.28:011][721]LogLinker: Can't find file '/Game/TylerMaterials/Tyler_Burntwood'
+[2019.09.18-21.26.28:011][721]LogLinker: Can't find file '/Game/TylerMaterials/Tyler_Burntwood'
+[2019.09.18-21.26.28:123][721]LogTexture: Display: Building textures: Tyler_Burntwood (AutoDXT, 1024X1024)
+[2019.09.18-21.26.28:700][721]LogMaterial: Missing cached shader map for material None_Tyler_Burntwood_jpg, compiling. 
+[2019.09.18-21.26.28:762][721]LogLinker: Can't find file '/Game/TylerMaterials/None'
+[2019.09.18-21.26.28:762][721]LogLinker: Can't find file '/Game/TylerMaterials/None'
+[2019.09.18-21.26.28:764][721]LogLinker: Can't find file '/Game/TylerMaterials/Tyler_Campfire_Rock'
+[2019.09.18-21.26.28:765][721]LogLinker: Can't find file '/Game/TylerMaterials/Tyler_Campfire_Rock'
+[2019.09.18-21.26.28:837][721]LogTexture: Display: Building textures: Tyler_Campfire_Rock (AutoDXT, 1024X1024)
+[2019.09.18-21.26.29:563][721]LogSlate: Took 0.000339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.18-21.26.29:584][721]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2019.09.18-21.26.29:626][721]LogFbx: Warning: Triangulating static mesh default
+[2019.09.18-21.26.29:865][721]LogStaticMesh: Building static mesh Tyler_Fireplace...
+[2019.09.18-21.26.30:003][721]LogStaticMesh: Built static mesh [0.14s] /Game/TylerMaterials/Tyler_Fireplace.Tyler_Fireplace
+[2019.09.18-21.26.38:895][475]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2019.09.18-21.26.41:001][665]LogActorFactory: Actor Factory created Tyler_Fireplace
+[2019.09.18-21.26.51:663][721]LogActorFactory: Actor Factory created Tyler_Fireplace
+[2019.09.18-21.26.53:911][937]LogActorFactory: Actor Factory created Tyler_Fireplace
+[2019.09.18-21.27.25:200][439]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.09.18-21.27.26:913][637]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
+[2019.09.18-21.27.27:775][724]LogEditorViewport: Clicking on Actor (LMB): InstancedFoliageActor (InstancedFoliageActor4)
+[2019.09.18-21.27.52:981][691]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.09.18-21.28.05:692][686]LogTexture: Display: Building textures: TylerBark (AutoDXT, 512X1024)
+[2019.09.18-21.28.05:692][686]LogMaterial: Missing cached shader map for material TylerBark_Mat, compiling. 
+[2019.09.18-21.28.18:727][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMaterials/Tyler_Tree3New" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Tree3New.uasset" SILENT=true
+[2019.09.18-21.28.18:750][483]LogSavePackage: Save=15.23ms
+[2019.09.18-21.28.18:750][483]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Tree3New3008DEB7492BB661C73A639CE12CB681.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Tree3New.uasset'
+[2019.09.18-21.28.18:768][483]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Tree3New.uasset
+[2019.09.18-21.28.24:635][ 57]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.09.18-21.28.26:528][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Fireplace)
+[2019.09.18-21.29.02:962][908]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.09.18-21.29.51:770][ 18]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
+[2019.09.18-21.29.51:844][ 18]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
+[2019.09.18-21.29.51:887][ 18]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
+[2019.09.18-21.29.51:993][ 18]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
+[2019.09.18-21.31.17:526][250]Cmd: TRANSACTION UNDO
+[2019.09.18-21.31.17:526][250]LogEditorTransaction: Undo Scale Actors
+[2019.09.18-21.32.55:043][116]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Tyler_Fireplace)
+[2019.09.18-21.33.38:491][790]LogSlate: Took 0.013601 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.18-21.33.54:987][535]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2019.09.18-21.34.12:383][387]Cmd: SELECT NONE
+[2019.09.18-21.34.30:093][382]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2019.09.18-21.34.30:103][382]LogMaterial: Missing cached shader map for material GrassMaterial, compiling. 
+[2019.09.18-21.34.30:523][382]LogMaterial: Missing cached shader map for material GrassMaterial, compiling. 
+[2019.09.18-21.34.30:578][382]LogMaterial: Missing cached shader map for material GrassMaterial, compiling. 
+[2019.09.18-21.34.30:641][382]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2019.09.18-21.34.30:648][382]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.18-21.34.30:682][382]LogSlate: Took 0.016874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.09.18-21.34.32:631][445]MaterialEditorStats: Base pass shader: 148 instructions
+[2019.09.18-21.34.32:631][445]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.34.32:631][445]MaterialEditorStats: Texture samplers: 5/16
+[2019.09.18-21.34.32:631][445]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.34.44:340][401]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.09.18-21.34.52:255][185]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.34.52:359][185]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.34.52:385][185]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.34.52:427][185]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_1, compiling. 
+[2019.09.18-21.34.52:435][185]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerBlend_2, compiling. 
+[2019.09.18-21.34.52:442][185]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.18-21.34.52:450][185]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.09.18-21.34.52:462][185]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.09.18-21.34.53:914][236]MaterialEditorStats: Base pass shader: 145 instructions
+[2019.09.18-21.34.53:914][236]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.34.53:914][236]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.34.53:914][236]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.36.12:957][387]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.09.18-21.36.13:114][387]LogSavePackage: Save=150.62ms
+[2019.09.18-21.36.13:114][387]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_Auto14E8826B44F94948240E2D8B65DB15BD6.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap'
+[2019.09.18-21.36.13:117][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap
+[2019.09.18-21.36.13:119][387]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TylerMap1' took 0.183
+[2019.09.18-21.36.13:119][387]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.183
+[2019.09.18-21.36.13:132][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tyler_Fireplace] ([1] browsable assets)...
+[2019.09.18-21.36.13:146][387]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TylerMaterials/Tyler_Fireplace.Tyler_Fireplace]
+[2019.09.18-21.36.13:146][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tyler_Fireplace]
+[2019.09.18-21.36.13:163][387]LogSavePackage: Save=14.35ms
+[2019.09.18-21.36.13:163][387]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Fireplace_Auto1D0DFEB99449FCAC85817E1B04E55B847.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Fireplace_Auto1.uasset'
+[2019.09.18-21.36.13:165][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Fireplace_Auto1.uasset
+[2019.09.18-21.36.13:166][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/None_Tyler_Burntwood_jpg] ([1] browsable assets)...
+[2019.09.18-21.36.13:179][387]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TylerMaterials/None_Tyler_Burntwood_jpg.None_Tyler_Burntwood_jpg]
+[2019.09.18-21.36.13:179][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/None_Tyler_Burntwood_jpg]
+[2019.09.18-21.36.13:195][387]LogSavePackage: Save=14.02ms
+[2019.09.18-21.36.13:195][387]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/None_Tyler_Burntwood_jpg_Auto1D865993F4A8E1CE6DE53C78C6DE6AD76.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_Tyler_Burntwood_jpg_Auto1.uasset'
+[2019.09.18-21.36.13:197][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_Tyler_Burntwood_jpg_Auto1.uasset
+[2019.09.18-21.36.13:198][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tyler_Burntwood] ([1] browsable assets)...
+[2019.09.18-21.36.13:206][387]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TylerMaterials/Tyler_Burntwood.Tyler_Burntwood]
+[2019.09.18-21.36.13:206][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tyler_Burntwood]
+[2019.09.18-21.36.13:223][387]LogSavePackage: Save=14.09ms
+[2019.09.18-21.36.13:223][387]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Burntwood_Auto114A6A44A49E3DB990927BDAEA4DF932D.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Burntwood_Auto1.uasset'
+[2019.09.18-21.36.13:239][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Burntwood_Auto1.uasset
+[2019.09.18-21.36.13:240][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/None] ([1] browsable assets)...
+[2019.09.18-21.36.13:256][387]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TylerMaterials/None.Material_0]
+[2019.09.18-21.36.13:256][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/None]
+[2019.09.18-21.36.13:279][387]LogSavePackage: Save=20.14ms
+[2019.09.18-21.36.13:279][387]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/None_Auto1FE2921D3472A37E36B243396664E5FA6.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_Auto1.uasset'
+[2019.09.18-21.36.13:281][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/None_Auto1.uasset
+[2019.09.18-21.36.13:282][387]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TylerMaterials/Tyler_Campfire_Rock] ([1] browsable assets)...
+[2019.09.18-21.36.13:290][387]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TylerMaterials/Tyler_Campfire_Rock.Tyler_Campfire_Rock]
+[2019.09.18-21.36.13:290][387]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMaterials/Tyler_Campfire_Rock]
+[2019.09.18-21.36.13:305][387]LogSavePackage: Save=13.30ms
+[2019.09.18-21.36.13:306][387]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Tyler_Campfire_Rock_Auto183AFB04A414F8FDD2BBED8B289D5766C.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Campfire_Rock_Auto1.uasset'
+[2019.09.18-21.36.13:308][387]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMaterials/Tyler_Campfire_Rock_Auto1.uasset
+[2019.09.18-21.36.13:308][387]LogFileHelpers: Auto-saving content packages took 0.180
+[2019.09.18-21.36.42:479][826]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.42:494][826]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.44:750][ 25]MaterialEditorStats: Base pass shader: 145 instructions
+[2019.09.18-21.36.44:750][ 25]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.36.44:750][ 25]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.36.44:750][ 25]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.36.46:687][257]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.48:199][402]MaterialEditorStats: Base pass shader: 145 instructions
+[2019.09.18-21.36.48:199][402]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.36.48:199][402]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.36.48:199][402]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.36.53:775][ 68]LogMaterialEditor: Saving and Compiling material TylerGravel_Mat
+[2019.09.18-21.36.54:530][ 68]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.54:586][ 68]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.54:641][ 68]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.54:679][ 68]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.54:689][ 68]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.54:706][ 68]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.54:796][ 68]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TylerGravel_Mat, compiling. 
+[2019.09.18-21.36.55:910][ 68]TextureStreamingBuild: Display: Compiling optional shaders took 1.125 seconds.
+[2019.09.18-21.36.59:354][ 68]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMaterials/TylerGravel_Mat" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset" SILENT=true
+[2019.09.18-21.36.59:385][ 68]LogSavePackage: Save=23.26ms
+[2019.09.18-21.36.59:385][ 68]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerGravel_Mat33B7EFF44B47CB66612DE19F863AA15F.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset'
+[2019.09.18-21.36.59:392][ 68]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset
+[2019.09.18-21.38.39:904][653]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.38.42:102][838]MaterialEditorStats: Base pass shader: 145 instructions
+[2019.09.18-21.38.42:102][838]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.38.42:102][838]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.38.42:102][838]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.38.42:108][838]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2019.09.18-21.38.53:715][208]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.39.21:427][443]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.39.21:441][443]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2019.09.18-21.39.23:649][635]MaterialEditorStats: Base pass shader: 145 instructions
+[2019.09.18-21.39.23:649][635]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.39.23:649][635]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.39.23:649][635]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.39.38:565][399]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.39.38:580][399]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.39.38:623][399]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2019.09.18-21.39.40:141][524]MaterialEditorStats: Base pass shader: 145 instructions
+[2019.09.18-21.39.40:141][524]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.39.40:141][524]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.39.40:141][524]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.39.49:206][599]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.39.50:741][733]MaterialEditorStats: Base pass shader: 145 instructions
+[2019.09.18-21.39.50:741][733]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.39.50:741][733]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.39.50:741][733]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.40.03:789][286]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.03:807][286]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2019.09.18-21.40.05:351][421]MaterialEditorStats: Base pass shader: 146 instructions
+[2019.09.18-21.40.05:351][421]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.40.05:351][421]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.40.05:351][421]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.40.10:072][980]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.10:089][980]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2019.09.18-21.40.11:569][106]MaterialEditorStats: Base pass shader: 146 instructions
+[2019.09.18-21.40.11:569][106]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.40.11:569][106]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.40.11:569][106]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.40.16:002][632]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.16:024][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2019.09.18-21.40.16:056][632]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionLandscapeLayerCoords_0, compiling. 
+[2019.09.18-21.40.17:471][756]MaterialEditorStats: Base pass shader: 146 instructions
+[2019.09.18-21.40.17:471][756]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.40.17:471][756]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.40.17:471][756]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.40.31:661][436]LogMaterialEditor: Saving and Compiling material TylerGravel_Mat
+[2019.09.18-21.40.32:431][436]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.32:481][436]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.32:551][436]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.32:585][436]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.32:595][436]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.32:614][436]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.32:701][436]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TylerGravel_Mat, compiling. 
+[2019.09.18-21.40.33:735][436]TextureStreamingBuild: Display: Compiling optional shaders took 1.041 seconds.
+[2019.09.18-21.40.37:196][436]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMaterials/TylerGravel_Mat" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset" SILENT=true
+[2019.09.18-21.40.37:242][436]LogSavePackage: Save=37.62ms
+[2019.09.18-21.40.37:242][436]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerGravel_MatFFE30E484B2483BE6770EA86BCA0B5C4.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset'
+[2019.09.18-21.40.37:247][436]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset
+[2019.09.18-21.44.27:888][811]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.44.30:050][  7]MaterialEditorStats: Base pass shader: 146 instructions
+[2019.09.18-21.44.30:050][  7]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.44.30:050][  7]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.44.30:050][  7]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.44.32:217][264]LogMaterialEditor: Saving and Compiling material TylerGravel_Mat
+[2019.09.18-21.44.32:977][264]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.44.33:027][264]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.44.33:090][264]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.44.33:119][264]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.44.33:130][264]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.44.33:149][264]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.44.33:230][264]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TylerGravel_Mat, compiling. 
+[2019.09.18-21.44.34:396][264]TextureStreamingBuild: Display: Compiling optional shaders took 1.177 seconds.
+[2019.09.18-21.44.37:923][264]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMaterials/TylerGravel_Mat" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset" SILENT=true
+[2019.09.18-21.44.37:960][264]LogSavePackage: Save=27.19ms
+[2019.09.18-21.44.37:960][264]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerGravel_Mat1BBB61264A06464442D47B9152C0E19C.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset'
+[2019.09.18-21.44.37:967][264]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset
+[2019.09.18-21.45.08:474][805]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.45.10:866][  7]MaterialEditorStats: Base pass shader: 146 instructions
+[2019.09.18-21.45.10:866][  7]MaterialEditorStats: Vertex shader: 87 instructions
+[2019.09.18-21.45.10:866][  7]MaterialEditorStats: Texture samplers: 6/16
+[2019.09.18-21.45.10:866][  7]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.09.18-21.45.16:597][692]LogMaterialEditor: Saving and Compiling material TylerGravel_Mat
+[2019.09.18-21.45.17:370][692]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.45.17:423][692]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.45.17:486][692]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.45.17:523][692]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.45.17:543][692]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.45.17:570][692]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
+[2019.09.18-21.45.17:668][692]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TylerGravel_Mat, compiling. 
+[2019.09.18-21.45.18:793][692]TextureStreamingBuild: Display: Compiling optional shaders took 1.136 seconds.
+[2019.09.18-21.45.22:561][692]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMaterials/TylerGravel_Mat" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset" SILENT=true
+[2019.09.18-21.45.22:593][692]LogSavePackage: Save=24.27ms
+[2019.09.18-21.45.22:593][692]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerGravel_Mat32D414EB47B2C55208A5F7B533C078D6.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset'
+[2019.09.18-21.45.22:598][692]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/TylerGravel_Mat.uasset
+[2019.09.18-21.45.57:208][172]Cmd: SELECT NONE
+[2019.09.18-21.50.49:384][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.18-21.50.49:522][238]LogSavePackage: Save=121.07ms
+[2019.09.18-21.50.49:522][238]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap182A7976A427B3AF1832B518610D1185C.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
+[2019.09.18-21.50.49:527][238]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
+[2019.09.18-21.50.49:548][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
+[2019.09.18-21.50.49:730][238]LogSavePackage: Save=170.42ms
+[2019.09.18-21.50.49:730][238]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltDataEBF9A0294DBD799BCC8DE4AFDC439C92.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
+[2019.09.18-21.50.49:734][238]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
+[2019.09.18-21.58.15:834][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.18-21.58.15:973][763]LogSavePackage: Save=120.74ms
+[2019.09.18-21.58.15:973][763]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap13CC3D79C43C4F6BDFAD2469F7DD141AA.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
+[2019.09.18-21.58.15:975][763]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
+[2019.09.18-21.58.15:996][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
+[2019.09.18-21.58.16:126][763]LogSavePackage: Save=118.19ms
+[2019.09.18-21.58.16:126][763]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltDataDC8C190E48BAB0A26B846F94080D9A44.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
+[2019.09.18-21.58.16:129][763]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
