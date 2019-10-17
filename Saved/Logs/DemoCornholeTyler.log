@@ -1,4 +1,4 @@
-﻿Log file open, 10/17/19 15:29:16
+﻿Log file open, 10/17/19 16:04:39
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: DemoCornholeTyler
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1537548222) SRandInit(1537548222).
-LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.236436
+LogInit: Display: RandInit(-940738352) SRandInit(-940738352).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.250317
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -83,7 +83,6 @@ LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
 LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
 LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
-LogHMD: Failed initializing OVRPlugin 1.15.0
 LogInit: Build: ++UE4+Release-4.17-CL-3658906
 LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
 LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
@@ -109,683 +108,792 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line: -EpicPortal  -epicusername="TOPVV1P" -epicuserid=a44fb6088b24435882642d43bdfe8903 -epiclocale=en-US
+LogInit: Command line:  
 LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.10.17-19.29.17:475][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.17-19.29.17:475][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.17-19.29.17:481][  0]LogInit: Computer: OAA242008
-[2019.10.17-19.29.17:482][  0]LogInit: User: liu7864
-[2019.10.17-19.29.17:482][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.10.17-19.29.17:482][  0]LogInit: High frequency timer resolution =3.609375 MHz
-[2019.10.17-19.29.17:482][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
-[2019.10.17-19.29.17:482][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.17-19.29.17:482][  0]LogMemory: Process Physical Memory: 284.29 MB used, 284.29 MB peak
-[2019.10.17-19.29.17:482][  0]LogMemory: Process Virtual Memory: 282.58 MB used, 282.58 MB peak
-[2019.10.17-19.29.17:482][  0]LogMemory: Physical Memory: 9103.16 MB used,  7109.41 MB free, 16212.57 MB total
-[2019.10.17-19.29.17:482][  0]LogMemory: Virtual Memory: 4841.30 MB used,  7109.41 MB free, 134217728.00 MB total
-[2019.10.17-19.29.17:793][  0]LogInit: Using OS detected language (en-US).
-[2019.10.17-19.29.17:793][  0]LogInit: Using OS detected locale (en-US).
-[2019.10.17-19.29.17:796][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.17-19.29.18:413][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.17-19.29.18:482][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2080' (Feature Level 11_0)
-[2019.10.17-19.29.18:482][  0]LogD3D11RHI:       8010/0/8106 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.10.17-19.29.18:511][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.10.17-19.29.18:511][  0]LogD3D11RHI:       128/0/8106 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.10.17-19.29.18:513][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.17-19.29.18:513][  0]LogD3D11RHI:       0/0/8106 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.17-19.29.18:513][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.17-19.29.18:551][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.17-19.29.18:551][  0]LogD3D11RHI:     GPU DeviceId: 0x1e82 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.17-19.29.18:551][  0]LogWindows: EnumDisplayDevices:
-[2019.10.17-19.29.18:551][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2080' (P:1 D:1)
-[2019.10.17-19.29.18:551][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2019.10.17-19.29.18:552][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2019.10.17-19.29.18:552][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2080' (P:0 D:0)
-[2019.10.17-19.29.18:552][  0]LogWindows:    4. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.10.17-19.29.18:552][  0]LogWindows:    5. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.10.17-19.29.18:553][  0]LogWindows:    6. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.10.17-19.29.18:553][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2019.10.17-19.29.18:553][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2080
-[2019.10.17-19.29.18:553][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2019.10.17-19.29.18:553][  0]LogD3D11RHI:      Driver Date: Unknown
-[2019.10.17-19.29.18:553][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2019.10.17-19.29.18:598][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.17-19.29.18:613][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.10.17-19.29.18:657][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Intermediate/Shaders/WorkingDirectory/134124/).
-[2019.10.17-19.29.18:657][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/liu.7864/AppData/Local/Temp/17/UnrealShaderWorkingDir/04746C3140E2D1B7E9FADA9191554BA5/'.
-[2019.10.17-19.29.18:657][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.17-19.29.19:642][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.10.17-19.29.19:734][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.10.17-19.29.19:820][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.10.17-19.29.19:904][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.10.17-19.29.19:987][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.10.17-19.29.20:075][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.10.17-19.29.20:159][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.10.17-19.29.20:242][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.10.17-19.29.20:321][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.10.17-19.29.20:405][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.10.17-19.29.20:487][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2019.10.17-19.29.20:571][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2019.10.17-19.29.20:654][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2019.10.17-19.29.20:735][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2019.10.17-19.29.20:819][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2019.10.17-19.29.20:984][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2019.10.17-19.29.20:984][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2019.10.17-19.29.21:058][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.10.17-19.29.21:210][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.10.17-19.29.21:266][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.10.17-19.29.21:349][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.10.17-19.29.21:431][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.10.17-19.29.21:514][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.10.17-19.29.21:599][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.10.17-19.29.21:599][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.17-19.29.22:502][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.17-19.29.22:564][  0]LogDerivedDataCache: Loaded boot cache 0.06s 93MB C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2019.10.17-19.29.22:564][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2019.10.17-19.29.22:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.17-19.29.22:564][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.17-19.29.22:564][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.17-19.29.22:564][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.17-19.29.22:576][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.17-19.29.22:588][  0]LogDerivedDataCache: Using Local data cache path C:/Users/liu.7864/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.17-19.29.22:608][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.17-19.29.22:609][  0]LogSlate: Using Freetype 2.6.0
-[2019.10.17-19.29.22:609][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.17-19.29.22:610][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.17-19.29.22:841][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
-[2019.10.17-19.29.22:980][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.17-19.29.23:141][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2019.10.17-19.29.23:174][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
-[2019.10.17-19.29.46:889][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
-[2019.10.17-19.29.50:726][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
-[2019.10.17-19.29.51:182][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
-[2019.10.17-19.29.51:682][  0]LogMaterial: Missing cached shader map for material SnapGridMaterial, compiling. 
-[2019.10.17-19.29.51:697][  0]LogMaterial: Missing cached shader map for material TransformGizmoMaterial, compiling. 
-[2019.10.17-19.29.52:232][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.10.17-19.29.52:330][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.10.17-19.29.52:330][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.17-19.29.52:330][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.10.17-19.29.52:330][  0]LogMeshReduction: No automatic mesh merging module available
-[2019.10.17-19.29.52:330][  0]LogMeshMerging: No automatic mesh merging module available
-[2019.10.17-19.29.52:381][  0]LogMaterial: Missing cached shader map for material TranslucentTransformGizmoMaterial, compiling. 
-[2019.10.17-19.29.52:407][  0]LogMaterial: Missing cached shader map for material Xray, compiling. 
-[2019.10.17-19.29.52:424][  0]LogMaterial: Missing cached shader map for material Main, compiling. 
-[2019.10.17-19.29.52:448][  0]LogMaterial: Missing cached shader map for material CineMat, compiling. 
-[2019.10.17-19.29.52:512][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
-[2019.10.17-19.29.52:552][  0]LogMaterial: Missing cached shader map for material M_SimpleOpaque, compiling. 
-[2019.10.17-19.29.52:591][  0]LogMaterial: Missing cached shader map for material M_SimpleTranslucent, compiling. 
-[2019.10.17-19.29.52:916][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
-[2019.10.17-19.29.52:940][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
-[2019.10.17-19.29.53:091][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
-[2019.10.17-19.29.53:127][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
-[2019.10.17-19.29.53:193][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
-[2019.10.17-19.29.53:235][  0]LogNetVersion: DemoCornholeTyler , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4077194088)
-[2019.10.17-19.29.53:276][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
-[2019.10.17-19.29.53:448][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
-[2019.10.17-19.29.53:802][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.064838 seconds
-[2019.10.17-19.29.53:811][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2019.10.17-19.29.53:811][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2019.10.17-19.29.53:811][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.17-19.29.54:021][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2019.10.17-19.29.57:255][  0]LogMaterial: Missing cached shader map for material OculusControllerMaterial, compiling. 
-[2019.10.17-19.29.57:283][  0]LogMaterial: Missing cached shader map for material GridPostProcess, compiling. 
-[2019.10.17-19.29.57:303][  0]LogMaterial: Missing cached shader map for material GenericHMDMaterial, compiling. 
-[2019.10.17-19.29.57:328][  0]LogMaterial: Missing cached shader map for material TeleportDirectionMaterial, compiling. 
-[2019.10.17-19.29.57:356][  0]LogMaterial: Missing cached shader map for material LaserPointerMaterial, compiling. 
-[2019.10.17-19.29.57:384][  0]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
-[2019.10.17-19.29.57:402][  0]LogMaterial: Missing cached shader map for material VRTextMaterial, compiling. 
-[2019.10.17-19.29.57:429][  0]LogMaterial: Missing cached shader map for material VivePreControllerMaterial, compiling. 
-[2019.10.17-19.29.57:450][  0]LogMaterial: Missing cached shader map for material FlattenHeightMat, compiling. 
-[2019.10.17-19.29.57:467][  0]LogMaterial: Missing cached shader map for material ArrowMaterial, compiling. 
-[2019.10.17-19.29.57:492][  0]LogMaterial: Missing cached shader map for material KeyDiskMaterial, compiling. 
-[2019.10.17-19.29.57:509][  0]LogMaterial: Missing cached shader map for material M_ContentWindow, compiling. 
-[2019.10.17-19.29.57:563][  0]LogMaterial: Missing cached shader map for material LineMaterial, compiling. 
-[2019.10.17-19.30.00:461][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.17-19.30.00:561][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.17-19.30.01:370][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
-[2019.10.17-19.30.02:331][  0]LogMaterial: Missing cached shader map for material BaseColor, compiling. 
-[2019.10.17-19.30.02:344][  0]LogMaterial: Missing cached shader map for material CustomDepth, compiling. 
-[2019.10.17-19.30.02:379][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2019.10.17-19.30.02:384][  0]LogMaterial: Missing cached shader map for material CustomStencil, compiling. 
-[2019.10.17-19.30.02:396][  0]LogMaterial: Missing cached shader map for material FinalImage, compiling. 
-[2019.10.17-19.30.02:408][  0]LogMaterial: Missing cached shader map for material LightingModel, compiling. 
-[2019.10.17-19.30.02:419][  0]LogMaterial: Missing cached shader map for material MaterialAO, compiling. 
-[2019.10.17-19.30.02:430][  0]LogMaterial: Missing cached shader map for material Metallic, compiling. 
-[2019.10.17-19.30.02:443][  0]LogMaterial: Missing cached shader map for material Opacity, compiling. 
-[2019.10.17-19.30.02:455][  0]LogMaterial: Missing cached shader map for material Roughness, compiling. 
-[2019.10.17-19.30.02:465][  0]LogMaterial: Missing cached shader map for material SceneColor, compiling. 
-[2019.10.17-19.30.02:476][  0]LogMaterial: Missing cached shader map for material SceneDepth, compiling. 
-[2019.10.17-19.30.02:488][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyRGB, compiling. 
-[2019.10.17-19.30.02:501][  0]LogMaterial: Missing cached shader map for material SeparateTranslucencyA, compiling. 
-[2019.10.17-19.30.02:514][  0]LogMaterial: Missing cached shader map for material Specular, compiling. 
-[2019.10.17-19.30.02:527][  0]LogMaterial: Missing cached shader map for material SubsurfaceColor, compiling. 
-[2019.10.17-19.30.02:542][  0]LogMaterial: Missing cached shader map for material WorldNormal, compiling. 
-[2019.10.17-19.30.02:560][  0]LogMaterial: Missing cached shader map for material AmbientOcclusion, compiling. 
-[2019.10.17-19.30.02:585][  0]LogMaterial: Missing cached shader map for material CustomDepthWorldUnits, compiling. 
-[2019.10.17-19.30.02:600][  0]LogMaterial: Missing cached shader map for material SceneDepthWorldUnits, compiling. 
-[2019.10.17-19.30.02:611][  0]LogMaterial: Missing cached shader map for material PreTonemapHDRColor, compiling. 
-[2019.10.17-19.30.02:624][  0]LogMaterial: Missing cached shader map for material PostTonemapHDRColor, compiling. 
-[2019.10.17-19.30.03:620][  0]SourceControl: Source control is disabled
-[2019.10.17-19.30.03:620][  0]SourceControl: Source control is disabled
-[2019.10.17-19.30.03:764][  0]SourceControl: Source control is disabled
-[2019.10.17-19.30.03:922][  0]SourceControl: Source control is disabled
-[2019.10.17-19.30.05:691][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.17-19.30.06:423][  0]LogOcInput: OculusInput pre-init called
-[2019.10.17-19.30.07:110][  0]LogMaterial: Missing cached shader map for material HighResScreenshot, compiling. 
-[2019.10.17-19.30.07:130][  0]LogMaterial: Missing cached shader map for material HighResScreenshotMask, compiling. 
-[2019.10.17-19.30.07:155][  0]LogMaterial: Missing cached shader map for material HighResScreenshotCaptureRegion, compiling. 
-[2019.10.17-19.30.07:182][  0]LogEngine: Initializing Engine...
-[2019.10.17-19.30.07:184][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.17-19.30.07:191][  0]LogMaterial: Missing cached shader map for material WireframeMaterial, compiling. Is special engine material.
-[2019.10.17-19.30.07:457][  0]LogMaterial: Missing cached shader map for material LevelColorationLitMaterial, compiling. Is special engine material.
-[2019.10.17-19.30.08:113][  0]LogMaterial: Missing cached shader map for material LevelColorationUnlitMaterial, compiling. Is special engine material.
-[2019.10.17-19.30.08:329][  0]LogMaterial: Missing cached shader map for material MAT_LevelColorationLitLightmapUV, compiling. Is special engine material.
-[2019.10.17-19.30.08:994][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationLitMaterial, compiling. Is special engine material.
-[2019.10.17-19.30.09:670][  0]LogMaterial: Missing cached shader map for material ShadedLevelColorationUnlitMateri, compiling. Is special engine material.
-[2019.10.17-19.30.09:875][  0]LogMaterial: Missing cached shader map for material VertexColorMaterial, compiling. 
-[2019.10.17-19.30.09:965][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_ColorOnly, compiling. 
-[2019.10.17-19.30.09:989][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_AlphaAsColor, compiling. 
-[2019.10.17-19.30.10:015][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_RedOnly, compiling. 
-[2019.10.17-19.30.10:035][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_GreenOnly, compiling. 
-[2019.10.17-19.30.10:056][  0]LogMaterial: Missing cached shader map for material VertexColorViewMode_BlueOnly, compiling. 
-[2019.10.17-19.30.10:075][  0]LogMaterial: Missing cached shader map for material RemoveSurfaceMaterial, compiling. 
-[2019.10.17-19.30.10:088][  0]LogMaterial: Missing cached shader map for material DebugMeshMaterial, compiling. 
-[2019.10.17-19.30.10:114][  0]LogMaterial: Missing cached shader map for material M_InvalidLightmapSettings, compiling. 
-[2019.10.17-19.30.10:153][  0]LogMaterial: Missing cached shader map for material GizmoMaterial, compiling. 
-[2019.10.17-19.30.10:170][  0]LogMaterial: Missing cached shader map for material PhAT_JointLimitMaterial, compiling. 
-[2019.10.17-19.30.10:188][  0]LogMaterial: Missing cached shader map for material GeomMaterial, compiling. 
-[2019.10.17-19.30.10:204][  0]LogMaterial: Missing cached shader map for material EditorBrushMaterial, compiling. 
-[2019.10.17-19.30.10:225][  0]LogMaterial: Missing cached shader map for material BoneWeightMaterial, compiling. 
-[2019.10.17-19.30.10:317][  0]LogMaterial: Missing cached shader map for material ClothMaterial, compiling. 
-[2019.10.17-19.30.10:336][  0]LogMaterial: Missing cached shader map for material ClothMaterial_WF, compiling. 
-[2019.10.17-19.30.10:361][  0]LogMaterial: Missing cached shader map for material DebugEditorMaterial, compiling. 
-[2019.10.17-19.30.10:382][  0]LogMaterial: Missing cached shader map for material PreviewShadowIndicatorMaterial, compiling. 
-[2019.10.17-19.30.10:508][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.10.17-19.30.10:508][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.10.17-19.30.10:913][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.17-19.30.10:936][  0]LogInit: XAudio2 using 'Speakers/Headphones (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.17-19.30.11:033][  0]LogInit: FAudioDevice initialized.
-[2019.10.17-19.30.11:102][  0]LogDerivedDataCache: Saved boot cache 0.07s 97MB C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2019.10.17-19.30.11:125][  0]LogInit: Texture streaming: Enabled
-[2019.10.17-19.30.11:480][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.17-19.30.12:265][  0]LogInit: Transaction tracking system initialized
-[2019.10.17-19.30.13:265][  0]BlueprintLog: New page: Editor Load
-[2019.10.17-19.30.16:141][  0]LocalizationService: Localization service is disabled
-[2019.10.17-19.30.18:293][  0]LogConsoleResponse: Display: 
-[2019.10.17-19.30.18:377][  0]LogMaterial: Missing cached shader map for material Cross_Mat, compiling. 
-[2019.10.17-19.30.18:406][  0]LogMaterial: Missing cached shader map for material PhAT_BoneSelectedMaterial, compiling. 
-[2019.10.17-19.30.18:424][  0]LogMaterial: Missing cached shader map for material PhAT_ElemSelectedMaterial, compiling. 
-[2019.10.17-19.30.18:442][  0]LogMaterial: Missing cached shader map for material PhAT_NoCollisionMaterial, compiling. 
-[2019.10.17-19.30.18:462][  0]LogMaterial: Missing cached shader map for material PhAT_UnselectedMaterial, compiling. 
-[2019.10.17-19.30.18:488][  0]LogMaterial: Missing cached shader map for material Tick_Mat, compiling. 
-[2019.10.17-19.30.18:518][  0]LogMaterial: Missing cached shader map for material WidgetGridVertexColorMaterial_Ma, compiling. 
-[2019.10.17-19.30.18:539][  0]LogMaterial: Missing cached shader map for material WidgetMaterial, compiling. 
-[2019.10.17-19.30.18:559][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Current, compiling. 
-[2019.10.17-19.30.18:579][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_X, compiling. 
-[2019.10.17-19.30.18:600][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Y, compiling. 
-[2019.10.17-19.30.18:621][  0]LogMaterial: Missing cached shader map for material WidgetMaterial_Z, compiling. 
-[2019.10.17-19.30.18:640][  0]LogMaterial: Missing cached shader map for material WidgetVertexColorMaterial, compiling. 
-[2019.10.17-19.30.18:711][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial, compiling. 
-[2019.10.17-19.30.18:769][  0]LogMaterial: Missing cached shader map for material BlinkingCaret, compiling. 
-[2019.10.17-19.30.18:818][  0]LogMaterial: Missing cached shader map for material M_StreamingPause, compiling. 
-[2019.10.17-19.30.18:864][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.17-19.30.18:864][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.17-19.30.18:864][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.10.17-19.30.18:945][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/' took 0.02s
-[2019.10.17-19.30.22:173][  0]SourceControl: Source control is disabled
-[2019.10.17-19.30.22:173][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.17-19.30.22:174][  0]LightingResults: New page: Lighting Build
-[2019.10.17-19.30.22:305][  0]MapCheck: New page: Map Check
-[2019.10.17-19.30.22:305][  0]LightingResults: New page: Lighting Build
-[2019.10.17-19.30.22:976][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None'
-[2019.10.17-19.30.22:976][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Fireplace.uasset.
-[2019.10.17-19.30.22:976][  0]LoadErrors: Error: /Game/TylerMaterials/Tyler_Fireplace : Can't find file for asset. /Game/TylerMaterials/None
-[2019.10.17-19.30.22:981][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None'
-[2019.10.17-19.30.22:981][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Fireplace.uasset.
-[2019.10.17-19.30.22:981][  0]LoadErrors: Error: /Game/TylerMaterials/Tyler_Fireplace : Can't find file for asset. /Game/TylerMaterials/None
-[2019.10.17-19.30.23:117][  0]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 8X8)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 8X8)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 32X32)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 8X8)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 8X8)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 8X8)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 8X8)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 8X8)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 8X8)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: Tyler_FabricBeanbag (AutoDXT, 1024X1024)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X256)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
-[2019.10.17-19.30.23:118][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
-[2019.10.17-19.30.23:118][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None'
-[2019.10.17-19.30.23:119][  0]LoadErrors: Failed to load /Game/TylerMaterials/None.Material_0 Referenced by Tyler_Fireplace
-[2019.10.17-19.30.23:119][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None' while loading NULL.
-[2019.10.17-19.30.23:119][  0]LoadErrors: Failed to load /Game/TylerMaterials/None.Material_0 Referenced by Tyler_Fireplace
-[2019.10.17-19.30.23:119][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None'
-[2019.10.17-19.30.23:119][  0]LoadErrors: Failed to load /Game/TylerMaterials/None.Material_0 Referenced by Tyler_Fireplace
-[2019.10.17-19.30.23:119][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None' while loading NULL.
-[2019.10.17-19.30.23:120][  0]LoadErrors: Failed to load /Game/TylerMaterials/None.Material_0 Referenced by Tyler_Fireplace
-[2019.10.17-19.30.23:141][  0]LogTexture: Display: Building textures: Tyler_FabricBlue2 (AutoDXT, 1000X1000)
-[2019.10.17-19.30.23:144][  0]LogStaticMesh: Building static mesh Tyler_cornholeBoard...
-[2019.10.17-19.30.23:156][  0]LogStaticMesh: Built static mesh [0.01s] /Game/TylerMaterials/Tyler_cornholeBoard.Tyler_cornholeBoard
-[2019.10.17-19.30.23:170][  0]LogStaticMesh: Building static mesh Tyler_Beanbagblend...
-[2019.10.17-19.30.23:267][  0]LogTexture: Display: Building textures: Tyler_Campfire_Rock (AutoDXT, 1024X1024)
-[2019.10.17-19.30.23:267][  0]LogTexture: Display: Building textures: Tyler_Metal (AutoDXT, 1024X1024)
-[2019.10.17-19.30.23:267][  0]LogTexture: Display: Building textures: TylerGravel (AutoDXT, 640X640)
-[2019.10.17-19.30.23:267][  0]LogStaticMesh: Built static mesh [0.10s] /Game/TylerMaterials/Tyler_Beanbagblend.Tyler_Beanbagblend
-[2019.10.17-19.30.23:292][  0]LogTexture: Display: Building textures: TylerNormalMap (BC5, 1024X1024)
-[2019.10.17-19.30.23:292][  0]LogStaticMesh: Building static mesh NewBush_Tyler...
-[2019.10.17-19.30.23:294][  0]LogStaticMesh: Built static mesh [0.00s] /Game/TylerMaterials/NewBush_Tyler.NewBush_Tyler
-[2019.10.17-19.30.23:962][  0]LogTexture: Display: Building textures: Tyler_wood2 (AutoDXT, 1024X1024)
-[2019.10.17-19.30.23:962][  0]LogTexture: Display: Building textures: TylerGrass2 (AutoDXT, 640X640)
-[2019.10.17-19.30.23:962][  0]LogTexture: Display: Building textures: TylerBark (AutoDXT, 512X1024)
-[2019.10.17-19.30.23:962][  0]LogTexture: Display: Building textures: TylerTree2 (BGRA8, 765X1024)
-[2019.10.17-19.30.23:962][  0]LogTexture: Display: Building textures: WoodPlanksClean_D_Will (AutoDXT, 1024X1024)
-[2019.10.17-19.30.23:962][  0]LogTexture: Display: Building textures: Tyler_Burntwood (AutoDXT, 1024X1024)
-[2019.10.17-19.30.23:962][  0]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
-[2019.10.17-19.30.24:041][  0]LogTexture: Display: Building textures: Fence_Wood_Tyler_Cornhole (AutoDXT, 1024X440)
-[2019.10.17-19.30.24:041][  0]LogMaterial: Missing cached shader map for material TylerGravel_Mat, compiling. 
-[2019.10.17-19.30.24:096][  0]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
-[2019.10.17-19.30.24:123][  0]LogMaterial: Missing cached shader map for material M_Heat_Distortion, compiling. 
-[2019.10.17-19.30.24:197][  0]LogTexture: Display: Building textures: BushTextureTyler (BGRA8, 889X889)
-[2019.10.17-19.30.24:197][  0]LogMaterial: Missing cached shader map for material M_Radial_Gradient, compiling. 
-[2019.10.17-19.30.24:302][  0]LogMaterial: Missing cached shader map for material M_smoke_subUV, compiling. 
-[2019.10.17-19.30.24:350][  0]LogMaterial: Missing cached shader map for material M_Fire_SubUV, compiling. 
-[2019.10.17-19.30.24:395][  0]LogStaticMesh: Building static mesh Tyler_Fence...
-[2019.10.17-19.30.24:413][  0]LogStaticMesh: Built static mesh [0.02s] /Game/TylerMaterials/Tyler_Fence.Tyler_Fence
-[2019.10.17-19.30.24:414][  0]LogStaticMesh: Building static mesh Tyler_Fireplace...
-[2019.10.17-19.30.24:482][  0]LogStaticMesh: Built static mesh [0.07s] /Game/TylerMaterials/Tyler_Fireplace.Tyler_Fireplace
-[2019.10.17-19.30.24:487][  0]LogStaticMesh: Building static mesh Tyler_Tableblend...
-[2019.10.17-19.30.24:524][  0]LogStaticMesh: Built static mesh [0.04s] /Game/TylerMaterials/Tyler_Tableblend.Tyler_Tableblend
-[2019.10.17-19.30.24:551][  0]LogStaticMesh: Building static mesh Tyler_Tree3New...
-[2019.10.17-19.30.24:625][  0]LogStaticMesh: Built static mesh [0.07s] /Game/TylerMaterials/Tyler_Tree3New.Tyler_Tree3New
-[2019.10.17-19.30.24:728][  0]LogMaterial: Missing cached shader map for material Tyler_FabricBeanbag_Mat, compiling. 
-[2019.10.17-19.30.24:757][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave metalClang02...
-[2019.10.17-19.30.25:041][  0]LogMaterial: Missing cached shader map for material Tyler_Metal_Mat, compiling. 
-[2019.10.17-19.30.25:066][  0]LogMaterial: Missing cached shader map for material Tyler_FabricBlue2_Mat, compiling. 
-[2019.10.17-19.30.25:251][  0]LogMaterial: Missing cached shader map for material Tyler_Campfire_Rock_Mat, compiling. 
-[2019.10.17-19.30.25:283][  0]LogMaterial: Missing cached shader map for material Tyler_wood2_Mat, compiling. 
-[2019.10.17-19.30.25:321][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave Bean_Bag_Land_Tyler...
-[2019.10.17-19.30.25:350][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave Bean_Bag_Pickup_tyler...
-[2019.10.17-19.30.25:370][  0]LogMaterial: Missing cached shader map for material TylerBark_Mat, compiling. 
-[2019.10.17-19.30.25:497][  0]LogMaterial: Missing cached shader map for material Tree_Mat, compiling. 
-[2019.10.17-19.30.25:600][  0]LogMaterial: Missing cached shader map for material None_WoodPlanksClean_D_Will_jpg, compiling. 
-[2019.10.17-19.30.25:634][  0]LogMaterial: Missing cached shader map for material None_Tyler_Burntwood_jpg, compiling. 
-[2019.10.17-19.30.25:666][  0]LogMaterial: Missing cached shader map for material Fence_Wood_Tyler_Cornhole_Mat, compiling. 
-[2019.10.17-19.30.25:699][  0]LogMaterial: Missing cached shader map for material BushTextureTyler_Mat, compiling. 
-[2019.10.17-19.30.25:806][  0]LogAIModule: Creating AISystem for world TylerMap1
-[2019.10.17-19.30.26:159][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.17-19.30.26:188][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.17-19.30.26:328][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 139.898ms to complete.
-[2019.10.17-19.30.26:328][  0]LogFileHelpers: Loading map 'TylerMap1' took 4.154
-[2019.10.17-19.30.26:619][  0]LogCollectionManager: Loaded 0 collections in 0.002529 seconds
-[2019.10.17-19.30.26:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Saved/Collections/' took 0.01s
-[2019.10.17-19.30.26:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Developers/liu7864/Collections/' took 0.01s
-[2019.10.17-19.30.26:809][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Collections/' took 0.01s
-[2019.10.17-19.30.26:809][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.10.17-19.30.26:823][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2386 classes and 500 folders.
-[2019.10.17-19.30.27:038][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2019.10.17-19.30.27:195][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2019.10.17-19.30.27:363][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2019.10.17-19.30.27:431][  0]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.17-19.30.27:433][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.17-19.30.27:452][  0]LogSlate: Took 0.009772 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.17-19.30.27:521][  0]LogMaterial: Missing cached shader map for material LevelGridMaterial2, compiling. 
-[2019.10.17-19.30.27:612][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 26 NumSamples 1 (Frame:1).
-[2019.10.17-19.30.27:727][  0]LogSlate: Took 0.001587 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.10.17-19.30.28:363][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
-[2019.10.17-19.30.28:363][  0]LogLoad: (Engine Initialization) Total time: 73.57 seconds
-[2019.10.17-19.30.28:363][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.17-19.30.28:364][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2019.10.17-19.30.28:373][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.10.17-19.30.28:399][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.17-19.30.28:540][  1]LogAssetRegistry: Asset discovery search completed in 65.7218 seconds
-[2019.10.17-19.30.28:543][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.10.17-19.30.28:543][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000083 seconds (updated 0 objects)
-[2019.10.17-19.30.29:406][ 64]LogSlate: Took 0.000422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.10.17-19.30.32:500][310]LogAudioDerivedData: Display: Building compressed audio format OGG wave BeanBag...
-[2019.10.17-19.32.25:144][984]LogEditorViewport: Clicking on Actor (LMB): MotionControllerPawn_C (MotionControllerPawn)
-[2019.10.17-19.32.43:691][577]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.10.17-19.33.24:090][388]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
-[2019.10.17-19.33.24:090][388]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
-[2019.10.17-19.33.25:437][539]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2019.10.17-19.33.25:816][539]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 113 classes and 0 folders.
-[2019.10.17-19.33.26:318][539]LogSlate: Took 0.003505 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.10.17-19.33.26:390][540]LogSlate: Took 0.001374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.10.17-19.33.42:680][483]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2019.10.17-19.34.00:176][537]LogEditorViewport: Clicking on Actor (LMB): Tyler_cornholeBoard2_Blueprint_C (Tyler_cornholeBoard2_Blueprint)
-[2019.10.17-19.41.06:259][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2019.10.17-19.41.06:471][502]LogSavePackage: Save=206.46ms
-[2019.10.17-19.41.06:471][502]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_Auto1D50715F34F6F7582FCE402A51E7F2BD4.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap'
-[2019.10.17-19.41.06:473][502]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap
-[2019.10.17-19.41.06:475][502]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TylerMap1' took 0.235
-[2019.10.17-19.41.06:475][502]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.235
-[2019.10.17-19.44.08:569][451]LogMaterial: Missing cached shader map for material GridMaterial, compiling. 
-[2019.10.17-19.44.08:597][451]LogMaterial: Missing cached shader map for material PersonaFloorMat, compiling. 
-[2019.10.17-19.49.13:568][523]LogEditorTransaction: Undo Paste clipboard contents
-[2019.10.17-19.49.16:034][814]LogUObjectHash: Warning: Ambiguous search, could be K2Node_CallFunction /Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1.EventGraph.K2Node_CallFunction_107 or K2Node_CallFunction /Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1.EventGraph.K2Node_CallFunction_107
-[2019.10.17-19.49.40:534][742]BlueprintLog: New page: Compile TylerMap1
-[2019.10.17-19.49.41:283][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.10.17-19.49.41:502][814]LogSavePackage: Save=200.64ms
-[2019.10.17-19.49.41:502][814]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1B15047144F037F29DE4245B26CB0C9F8.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
-[2019.10.17-19.49.41:505][814]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
-[2019.10.17-19.49.41:522][814]LogFileHelpers: Saving map 'TylerMap1' took 0.335
-[2019.10.17-19.55.04:400][413]LogRenderer: Reallocating scene render targets to support 1208x900 Format 26 NumSamples 1 (Frame:1).
-[2019.10.17-19.59.39:925][468]BlueprintLog: New page: Compile TylerMap1
-[2019.10.17-19.59.40:630][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.10.17-19.59.40:849][535]LogSavePackage: Save=199.11ms
-[2019.10.17-19.59.40:849][535]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap18057863B487AA1C9EABD06944B0E6C34.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
-[2019.10.17-19.59.40:852][535]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
-[2019.10.17-19.59.40:867][535]LogFileHelpers: Saving map 'TylerMap1' took 0.332
-[2019.10.17-19.59.56:951][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.10.17-19.59.57:196][448]LogSavePackage: Save=220.46ms
-[2019.10.17-19.59.57:196][448]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap139E96E224BD8459DB7BB3096E63326CF.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
-[2019.10.17-19.59.57:197][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
-[2019.10.17-19.59.57:215][448]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
-[2019.10.17-19.59.57:350][448]LogSavePackage: Save=129.86ms
-[2019.10.17-19.59.57:350][448]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltDataA402E0A74EBFF9D1D6A81487AD441663.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
-[2019.10.17-19.59.57:351][448]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
-[2019.10.17-20.00.15:170][523]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
-[2019.10.17-20.00.16:342][658]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
-[2019.10.17-20.00.25:679][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2019.10.17-20.00.25:899][221]LogSavePackage: Save=201.88ms
-[2019.10.17-20.00.25:899][221]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap126B2CC8F4D4FD3912FB61C9F1A2C3955.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
-[2019.10.17-20.00.25:901][221]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
-[2019.10.17-20.00.25:918][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
-[2019.10.17-20.00.26:006][221]LogSavePackage: Save=85.60ms
-[2019.10.17-20.00.26:006][221]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltDataFF31A0B24583444E91484783160BD92D.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
-[2019.10.17-20.00.26:007][221]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
-[2019.10.17-20.00.27:237][333]Cmd: QUIT_EDITOR
-[2019.10.17-20.00.27:250][333]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.10.17-20.00.27:259][333]LogExit: Preparing to exit.
-[2019.10.17-20.00.27:669][333]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/' was aborted.
-[2019.10.17-20.00.27:696][333]LogExit: Editor shut down
-[2019.10.17-20.00.27:699][333]LogExit: Transaction tracking system shut down
-[2019.10.17-20.00.27:933][333]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2019.10.17-20.00.27:933][333]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/' was aborted.
-[2019.10.17-20.00.27:933][333]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2019.10.17-20.00.27:933][333]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2019.10.17-20.00.27:933][333]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2019.10.17-20.00.27:985][333]LogExit: Object subsystem successfully closed.
-[2019.10.17-20.00.28:005][333]LogD3D11RHI: Shutdown
-[2019.10.17-20.00.28:005][333]LogD3D11RHI: CleanupD3DDevice
-[2019.10.17-20.00.28:076][333]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.10.17-20.00.28:108][333]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
-[2019.10.17-20.00.28:108][333]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
-[2019.10.17-20.00.28:109][333]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
-[2019.10.17-20.00.28:109][333]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
-[2019.10.17-20.00.28:109][333]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
-[2019.10.17-20.00.28:109][333]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2019.10.17-20.00.28:110][333]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
-[2019.10.17-20.00.28:110][333]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
-[2019.10.17-20.00.28:110][333]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
-[2019.10.17-20.00.28:110][333]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Collections/' was aborted.
-[2019.10.17-20.00.28:111][333]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Developers/liu7864/Collections/' was aborted.
-[2019.10.17-20.00.28:111][333]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeTyler/Saved/Collections/' was aborted.
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module BspMode (502)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module Media (477)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module SessionServices (464)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
-[2019.10.17-20.00.28:111][333]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
-[2019.10.17-20.00.28:112][333]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
-[2019.10.17-20.00.28:112][333]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module MergeActors (434)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module SizeMap (432)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module TreeMap (430)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module XmlParser (416)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module Blutility (414)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
-[2019.10.17-20.00.28:377][333]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
-[2019.10.17-20.00.28:378][333]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
-[2019.10.17-20.00.28:378][333]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
-[2019.10.17-20.00.28:378][333]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
-[2019.10.17-20.00.28:378][333]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
-[2019.10.17-20.00.28:378][333]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
-[2019.10.17-20.00.28:378][333]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
-[2019.10.17-20.00.28:378][333]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module AutomationController (394)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module Layers (390)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module Persona (382)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
-[2019.10.17-20.00.28:443][333]LogModuleManager: Shutting down and abandoning module Kismet (376)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module Toolbox (372)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module OutputLog (366)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module GammaUI (364)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module Documentation (362)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module MovieScene (358)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module Niagara (356)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
-[2019.10.17-20.00.28:448][333]LogModuleManager: Shutting down and abandoning module PortalServices (346)
-[2019.10.17-20.00.28:449][333]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
-[2019.10.17-20.00.28:449][333]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
-[2019.10.17-20.00.28:449][333]LogModuleManager: Shutting down and abandoning module AIModule (340)
-[2019.10.17-20.00.28:449][333]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
-[2019.10.17-20.00.28:449][333]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
-[2019.10.17-20.00.28:449][333]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
-[2019.10.17-20.00.28:681][333]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module OculusInput (324)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module CableComponent (318)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
-[2019.10.17-20.00.28:682][333]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
-[2019.10.17-20.00.28:683][333]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
-[2019.10.17-20.00.28:684][333]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
-[2019.10.17-20.00.28:684][333]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
-[2019.10.17-20.00.28:684][333]LogModuleManager: Shutting down and abandoning module SourceControl (281)
-[2019.10.17-20.00.28:684][333]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
-[2019.10.17-20.00.28:684][333]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
-[2019.10.17-20.00.28:684][333]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
-[2019.10.17-20.00.28:684][333]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
-[2019.10.17-20.00.28:684][333]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
-[2019.10.17-20.00.28:684][333]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
-[2019.10.17-20.00.28:686][333]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
-[2019.10.17-20.00.28:686][333]LogModuleManager: Shutting down and abandoning module MainFrame (266)
-[2019.10.17-20.00.28:687][333]LogModuleManager: Shutting down and abandoning module HotReload (265)
-[2019.10.17-20.00.28:688][333]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
-[2019.10.17-20.00.28:688][333]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
-[2019.10.17-20.00.28:688][333]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
-[2019.10.17-20.00.28:688][333]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
-[2019.10.17-20.00.28:689][333]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
-[2019.10.17-20.00.28:689][333]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
-[2019.10.17-20.00.28:689][333]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
-[2019.10.17-20.00.28:689][333]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
-[2019.10.17-20.00.28:790][333]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
-[2019.10.17-20.00.28:891][333]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
-[2019.10.17-20.00.28:891][333]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
-[2019.10.17-20.00.28:891][333]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
-[2019.10.17-20.00.28:891][333]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
-[2019.10.17-20.00.28:891][333]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
-[2019.10.17-20.00.28:891][333]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
-[2019.10.17-20.00.28:892][333]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
-[2019.10.17-20.00.28:892][333]LogModuleManager: Shutting down and abandoning module Paper2D (228)
-[2019.10.17-20.00.28:892][333]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
-[2019.10.17-20.00.28:892][333]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module Overlay (216)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module VREditor (210)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module UMG (196)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module Sequencer (194)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module MessageLog (191)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module Slate (184)
-[2019.10.17-20.00.28:894][333]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module MRMesh (180)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module Networking (172)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module Core (168)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
-[2019.10.17-20.00.28:898][333]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
-[2019.10.17-20.00.28:899][333]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2019.10.17-20.00.28:988][333]LogDerivedDataCache: Shutdown
-[2019.10.17-20.00.28:988][333]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2019.10.17-20.00.28:988][333]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2019.10.17-20.00.28:988][333]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2019.10.17-20.00.28:988][333]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2019.10.17-20.00.28:988][333]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2019.10.17-20.00.28:988][333]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2019.10.17-20.00.28:988][333]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2019.10.17-20.00.28:988][333]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module SteamVR (54)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2019.10.17-20.00.28:989][333]LogOnline: Display: Unloading online subsystem: NULL
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2019.10.17-20.00.28:989][333]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2019.10.17-20.00.28:989][333]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.10.17-20.00.28:989][333]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8F764980-4031-D72D-406E-5281C8B2AADE%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=de1677cb42a601df4bce7a8df912af42%7Ca44fb6088b24435882642d43bdfe8903%7Cff7dcaf0-14ab-45dd-ba70-2363ee11ec2c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.10.17-20.00.28:993][333]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2019.10.17-20.00.28:994][333]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.10.17-20.00.28:994][333]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.10.17-20.00.28:994][333]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.10.17-20.00.28:994][333]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.10.17-20.00.28:994][333]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.10.17-20.00.28:994][333]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.10.17-20.00.28:994][333]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.10.17-20.00.28:995][333]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.10.17-20.00.28:999][333]LogExit: Exiting.
-[2019.10.17-20.00.29:008][333]Log file closed, 10/17/19 16:00:29
+[2019.10.17-20.04.42:618][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.17-20.04.42:618][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.17-20.04.42:688][  0]LogInit: Computer: MT330D07
+[2019.10.17-20.04.42:688][  0]LogInit: User: liu7864
+[2019.10.17-20.04.42:688][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.17-20.04.42:688][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.17-20.04.42:689][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.17-20.04.42:689][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.17-20.04.42:689][  0]LogMemory: Process Physical Memory: 280.19 MB used, 280.19 MB peak
+[2019.10.17-20.04.42:689][  0]LogMemory: Process Virtual Memory: 283.09 MB used, 283.09 MB peak
+[2019.10.17-20.04.42:689][  0]LogMemory: Physical Memory: 9178.14 MB used,  7128.25 MB free, 16306.39 MB total
+[2019.10.17-20.04.42:689][  0]LogMemory: Virtual Memory: 4796.58 MB used,  7128.25 MB free, 134217728.00 MB total
+[2019.10.17-20.04.44:609][  0]LogInit: Using OS detected language (en-US).
+[2019.10.17-20.04.44:609][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.17-20.04.44:708][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.17-20.04.55:063][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.17-20.04.55:175][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.10.17-20.04.55:175][  0]LogD3D11RHI:       8079/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.10.17-20.04.55:182][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.17-20.04.55:182][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.17-20.04.55:182][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.17-20.04.55:233][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.17-20.04.55:233][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.17-20.04.55:233][  0]LogWindows: EnumDisplayDevices:
+[2019.10.17-20.04.55:234][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.10.17-20.04.55:234][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.10.17-20.04.55:234][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.10.17-20.04.55:235][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.10.17-20.04.55:235][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.10.17-20.04.55:235][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.10.17-20.04.55:235][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.10.17-20.04.55:235][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.10.17-20.04.55:235][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2019.10.17-20.04.55:355][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.17-20.04.55:372][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.10.17-20.04.55:419][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Intermediate/Shaders/WorkingDirectory/150676/).
+[2019.10.17-20.04.55:419][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/liu.7864/AppData/Local/Temp/32/UnrealShaderWorkingDir/C5C863F84954F09F02F5AABCE3E23234/'.
+[2019.10.17-20.04.55:419][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.17-20.04.58:844][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.10.17-20.04.59:066][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.10.17-20.04.59:279][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.10.17-20.04.59:458][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.10.17-20.04.59:757][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.10.17-20.04.59:958][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.10.17-20.05.00:149][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.10.17-20.05.00:316][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.10.17-20.05.00:480][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.10.17-20.05.00:711][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.10.17-20.05.00:904][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.10.17-20.05.01:072][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.10.17-20.05.01:557][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.10.17-20.05.01:723][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.10.17-20.05.01:887][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.10.17-20.05.02:250][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.10.17-20.05.02:250][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.10.17-20.05.02:404][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.10.17-20.05.02:723][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.10.17-20.05.02:824][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.10.17-20.05.02:993][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.10.17-20.05.03:156][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.10.17-20.05.03:322][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.10.17-20.05.03:530][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.10.17-20.05.03:530][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.17-20.05.05:932][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.17-20.05.07:366][  0]LogDerivedDataCache: Loaded boot cache 1.43s 106MB C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2019.10.17-20.05.07:366][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2019.10.17-20.05.07:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.17-20.05.07:366][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.17-20.05.07:366][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.17-20.05.07:366][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.17-20.05.07:402][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.17-20.05.07:416][  0]LogDerivedDataCache: Using Local data cache path C:/Users/liu.7864/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.17-20.05.07:427][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.17-20.05.07:427][  0]LogSlate: Using Freetype 2.6.0
+[2019.10.17-20.05.07:443][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.17-20.05.07:443][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.17-20.05.10:968][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2019.10.17-20.05.11:229][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.17-20.05.11:521][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2019.10.17-20.05.12:696][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.10.17-20.05.12:881][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.10.17-20.05.12:882][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.17-20.05.12:882][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.10.17-20.05.12:882][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.10.17-20.05.12:882][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.10.17-20.05.13:734][  0]LogNetVersion: DemoCornholeTyler , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4077194088)
+[2019.10.17-20.05.14:319][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.102955 seconds
+[2019.10.17-20.05.14:330][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2019.10.17-20.05.14:330][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2019.10.17-20.05.14:330][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.17-20.05.14:639][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2019.10.17-20.05.28:701][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.17-20.05.28:842][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.17-20.05.31:304][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.10.17-20.05.32:681][  0]SourceControl: Source control is disabled
+[2019.10.17-20.05.32:681][  0]SourceControl: Source control is disabled
+[2019.10.17-20.05.32:873][  0]SourceControl: Source control is disabled
+[2019.10.17-20.05.33:051][  0]SourceControl: Source control is disabled
+[2019.10.17-20.05.35:680][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.17-20.05.36:740][  0]LogOcInput: OculusInput pre-init called
+[2019.10.17-20.05.37:812][  0]LogEngine: Initializing Engine...
+[2019.10.17-20.05.37:834][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.17-20.05.38:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.10.17-20.05.38:114][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.10.17-20.05.38:649][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.17-20.05.38:705][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.17-20.05.38:965][  0]LogInit: FAudioDevice initialized.
+[2019.10.17-20.05.39:176][  0]LogDerivedDataCache: Saved boot cache 0.21s 106MB C:/Users/liu.7864/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2019.10.17-20.05.39:197][  0]LogInit: Texture streaming: Enabled
+[2019.10.17-20.05.40:347][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.17-20.05.41:319][  0]LogInit: Transaction tracking system initialized
+[2019.10.17-20.05.42:698][  0]BlueprintLog: New page: Editor Load
+[2019.10.17-20.05.46:680][  0]LocalizationService: Localization service is disabled
+[2019.10.17-20.05.49:683][  0]LogConsoleResponse: Display: 
+[2019.10.17-20.05.50:407][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.17-20.05.50:407][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.17-20.05.50:407][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.10.17-20.05.50:987][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/' took 0.02s
+[2019.10.17-20.05.54:800][  0]SourceControl: Source control is disabled
+[2019.10.17-20.05.54:800][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.17-20.05.54:803][  0]LightingResults: New page: Lighting Build
+[2019.10.17-20.05.54:976][  0]MapCheck: New page: Map Check
+[2019.10.17-20.05.54:976][  0]LightingResults: New page: Lighting Build
+[2019.10.17-20.05.56:569][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None'
+[2019.10.17-20.05.56:570][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Fireplace.uasset.
+[2019.10.17-20.05.56:570][  0]LoadErrors: Error: /Game/TylerMaterials/Tyler_Fireplace : Can't find file for asset. /Game/TylerMaterials/None
+[2019.10.17-20.05.56:599][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None'
+[2019.10.17-20.05.56:599][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None' while loading ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMaterials/Tyler_Fireplace.uasset.
+[2019.10.17-20.05.56:599][  0]LoadErrors: Error: /Game/TylerMaterials/Tyler_Fireplace : Can't find file for asset. /Game/TylerMaterials/None
+[2019.10.17-20.05.56:803][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None'
+[2019.10.17-20.05.56:803][  0]LoadErrors: Failed to load /Game/TylerMaterials/None.Material_0 Referenced by Tyler_Fireplace
+[2019.10.17-20.05.56:804][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None' while loading NULL.
+[2019.10.17-20.05.56:804][  0]LoadErrors: Failed to load /Game/TylerMaterials/None.Material_0 Referenced by Tyler_Fireplace
+[2019.10.17-20.05.56:804][  0]LogLinker: Warning: Can't find file '/Game/TylerMaterials/None'
+[2019.10.17-20.05.56:804][  0]LoadErrors: Failed to load /Game/TylerMaterials/None.Material_0 Referenced by Tyler_Fireplace
+[2019.10.17-20.05.56:804][  0]LogLinker: Warning: Can't find file for asset '/Game/TylerMaterials/None' while loading NULL.
+[2019.10.17-20.05.56:804][  0]LoadErrors: Failed to load /Game/TylerMaterials/None.Material_0 Referenced by Tyler_Fireplace
+[2019.10.17-20.05.58:974][  0]LogTexture: Display: Building textures: Tyler_Campfire_Rock (AutoDXT, 1024X1024)
+[2019.10.17-20.05.58:974][  0]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2019.10.17-20.05.58:974][  0]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2019.10.17-20.05.58:974][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2019.10.17-20.05.58:974][  0]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2019.10.17-20.05.58:974][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2019.10.17-20.05.58:974][  0]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2019.10.17-20.05.58:974][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 1024X256)
+[2019.10.17-20.05.58:974][  0]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 32X32)
+[2019.10.17-20.05.58:977][  0]LogMaterial: Missing cached shader map for material Tyler_Campfire_Rock_Mat, compiling. 
+[2019.10.17-20.05.59:038][  0]LogMaterial: Missing cached shader map for material TylerBark_Mat, compiling. 
+[2019.10.17-20.05.59:247][  0]LogMaterial: Missing cached shader map for material None_WoodPlanksClean_D_Will_jpg, compiling. 
+[2019.10.17-20.05.59:693][  0]LogMaterial: Missing cached shader map for material None_Tyler_Burntwood_jpg, compiling. 
+[2019.10.17-20.05.59:791][  0]LogMaterial: Missing cached shader map for material Fence_Wood_Tyler_Cornhole_Mat, compiling. 
+[2019.10.17-20.06.00:121][  0]LogMaterial: Missing cached shader map for material Tyler_Metal_Mat, compiling. 
+[2019.10.17-20.06.00:344][  0]LogMaterial: Missing cached shader map for material Tyler_wood2_Mat, compiling. 
+[2019.10.17-20.06.00:478][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave Bean_Bag_Pickup_tyler...
+[2019.10.17-20.06.00:816][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave Bean_Bag_Land_Tyler...
+[2019.10.17-20.06.01:870][  0]LogMaterial: Missing cached shader map for material Tyler_FabricBeanbag_Mat, compiling. 
+[2019.10.17-20.06.01:893][  0]LogAudioDerivedData: Display: Building compressed audio format OGG wave metalClang02...
+[2019.10.17-20.06.02:040][  0]LogAIModule: Creating AISystem for world TylerMap1
+[2019.10.17-20.06.02:271][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.17-20.06.02:302][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.17-20.06.02:538][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 235.434ms to complete.
+[2019.10.17-20.06.02:538][  0]LogFileHelpers: Loading map 'TylerMap1' took 7.738
+[2019.10.17-20.06.03:160][  0]LogCollectionManager: Loaded 0 collections in 0.007740 seconds
+[2019.10.17-20.06.03:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Saved/Collections/' took 0.01s
+[2019.10.17-20.06.03:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Developers/liu7864/Collections/' took 0.01s
+[2019.10.17-20.06.03:435][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Collections/' took 0.01s
+[2019.10.17-20.06.03:435][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.10.17-20.06.03:452][  0]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2386 classes and 500 folders.
+[2019.10.17-20.06.03:833][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2019.10.17-20.06.04:741][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2019.10.17-20.06.05:050][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2019.10.17-20.06.05:768][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2019.10.17-20.06.05:768][  0]LogLoad: (Engine Initialization) Total time: 91.40 seconds
+[2019.10.17-20.06.05:768][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.17-20.06.05:768][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.10.17-20.06.06:128][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.17-20.06.06:234][  0]LogSlate: Took 0.013212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.17-20.06.06:247][  0]LogSlate: Took 0.009330 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.17-20.06.06:264][  0]LogSlate: Took 0.010012 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.17-20.06.06:700][  1]LogRenderer: Reallocating scene render targets to support 804x380 Format 26 NumSamples 1 (Frame:1).
+[2019.10.17-20.06.07:227][  2]LogAssetRegistry: Asset discovery search completed in 56.2816 seconds
+[2019.10.17-20.06.07:230][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.10.17-20.06.07:231][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000130 seconds (updated 0 objects)
+[2019.10.17-20.06.07:540][  3]LogSlate: Took 0.000355 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.10.17-20.06.10:869][ 13]LogAudioDerivedData: Display: Building compressed audio format OGG wave BeanBag...
+[2019.10.17-20.06.14:273][182]LogRenderer: Reallocating scene render targets to support 1616x832 Format 26 NumSamples 1 (Frame:160).
+[2019.10.17-20.06.25:470][861]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2019.10.17-20.06.25:470][861]LogUObjectGlobals: Warning: Failed to find object 'Object None.'
+[2019.10.17-20.06.26:577][919]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.10.17-20.06.27:536][919]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 113 classes and 0 folders.
+[2019.10.17-20.06.28:701][919]LogSlate: Took 0.000376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.10.17-20.06.28:876][920]LogSlate: Took 0.000295 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.17-20.08.40:563][969]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.10.17-20.09.05:719][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.17-20.09.06:182][795]LogSavePackage: Save=367.64ms
+[2019.10.17-20.09.06:183][795]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1BE8A627C45DD6A306C1730A971B01D16.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
+[2019.10.17-20.09.06:243][795]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
+[2019.10.17-20.09.06:297][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
+[2019.10.17-20.09.06:586][795]LogSavePackage: Save=255.73ms
+[2019.10.17-20.09.06:586][795]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltData7E73377E43582F71775BD2AD6E15358C.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
+[2019.10.17-20.09.06:589][795]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
+[2019.10.17-20.10.23:721][659]MapCheck: New page: Map Check
+[2019.10.17-20.10.23:742][659]Cmd: MAP REBUILD ALLVISIBLE
+[2019.10.17-20.10.23:742][659]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2019.10.17-20.10.24:015][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2019.10.17-20.10.24:022][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2019.10.17-20.10.24:029][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2019.10.17-20.10.24:037][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy None_Tyler_Burntwood_jpg, compiling. 
+[2019.10.17-20.10.24:046][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tyler_Campfire_Rock_Mat, compiling. 
+[2019.10.17-20.10.24:053][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Fire_SubUV, compiling. 
+[2019.10.17-20.10.24:071][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_smoke_subUV, compiling. 
+[2019.10.17-20.10.24:081][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Radial_Gradient, compiling. 
+[2019.10.17-20.10.24:088][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Heat_Distortion, compiling. 
+[2019.10.17-20.10.24:097][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Fence_Wood_Tyler_Cornhole_Mat, compiling. 
+[2019.10.17-20.10.24:107][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tyler_Metal_Mat, compiling. 
+[2019.10.17-20.10.24:117][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy None_WoodPlanksClean_D_Will_jpg, compiling. 
+[2019.10.17-20.10.24:129][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy BushTextureTyler_Mat, compiling. 
+[2019.10.17-20.10.24:138][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tree_Mat, compiling. 
+[2019.10.17-20.10.24:150][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy TylerBark_Mat, compiling. 
+[2019.10.17-20.10.24:162][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tyler_wood2_Mat, compiling. 
+[2019.10.17-20.10.24:170][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tyler_FabricBlue2_Mat, compiling. 
+[2019.10.17-20.10.24:181][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Tyler_FabricBeanbag_Mat, compiling. 
+[2019.10.17-20.10.24:194][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy DefaultTextMaterialOpaque, compiling. 
+[2019.10.17-20.10.24:205][659]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MatineeCam_mat, compiling. 
+[2019.10.17-20.10.26:563][659]TextureStreamingBuild: Display: Compiling optional shaders took 2.556 seconds.
+[2019.10.17-20.10.26:583][659]LogLevel: Display: Export Material TexCoord Scales took 0.020 seconds.
+[2019.10.17-20.10.26:603][659]TextureStreamingBuild: Display: Build Texture Streaming took 0.020 seconds.
+[2019.10.17-20.10.26:621][659]LightingResults: New page: Lighting Build - Oct 17, 2019, 12:10:26 PM
+[2019.10.17-20.10.26:711][659]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2019.10.17-20.10.26:905][659]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2019.10.17-20.10.26:925][659]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2019.10.17-20.10.28:948][659]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2019.10.17-20.10.28:948][659]LogSwarmInterface: [TryOpenConnection] Local Process ID is 150676
+[2019.10.17-20.10.34:615][659]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2019.10.17-20.10.34:615][659]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2019.10.17-20.10.34:615][659]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2019.10.17-20.10.34:615][659]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2019.10.17-20.10.34:615][659]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2019.10.17-20.10.34:615][659]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2019.10.17-20.10.35:483][659]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2019.10.17-20.10.35:484][659]MapCheck: New page: TylerMap1 - Oct 17, 2019, 12:10:35 PM
+[2019.10.17-20.10.35:485][659]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2019.10.17-20.10.35:689][659]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 206.753ms to complete.
+[2019.10.17-20.10.35:712][659]LogEditorBuildUtils: Build time 0:11
+[2019.10.17-20.10.35:866][660]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2, compiling. 
+[2019.10.17-20.10.35:873][660]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_2, compiling. 
+[2019.10.17-20.10.36:253][670]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer None_Tyler_Burntwood_jpg, compiling. 
+[2019.10.17-20.10.36:263][670]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer None_Tyler_Burntwood_jpg, compiling. 
+[2019.10.17-20.10.36:297][671]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tyler_Campfire_Rock_Mat, compiling. 
+[2019.10.17-20.10.36:309][671]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tyler_Campfire_Rock_Mat, compiling. 
+[2019.10.17-20.10.36:346][672]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Fence_Wood_Tyler_Cornhole_Mat, compiling. 
+[2019.10.17-20.10.36:356][672]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Fence_Wood_Tyler_Cornhole_Mat, compiling. 
+[2019.10.17-20.10.36:387][673]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tyler_Metal_Mat, compiling. 
+[2019.10.17-20.10.36:397][673]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tyler_Metal_Mat, compiling. 
+[2019.10.17-20.10.36:434][674]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer None_WoodPlanksClean_D_Will_jpg, compiling. 
+[2019.10.17-20.10.36:446][674]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer None_WoodPlanksClean_D_Will_jpg, compiling. 
+[2019.10.17-20.10.36:525][675]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tree_Mat, compiling. 
+[2019.10.17-20.10.36:552][675]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tree_Mat, compiling. 
+[2019.10.17-20.10.36:567][675]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tree_Mat, compiling. 
+[2019.10.17-20.10.36:639][676]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TylerBark_Mat, compiling. 
+[2019.10.17-20.10.36:658][676]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TylerBark_Mat, compiling. 
+[2019.10.17-20.10.36:679][676]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer TylerBark_Mat, compiling. 
+[2019.10.17-20.10.36:730][677]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tyler_wood2_Mat, compiling. 
+[2019.10.17-20.10.36:754][677]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Tyler_wood2_Mat, compiling. 
+[2019.10.17-20.10.52:809][182]Job is a success!
+[2019.10.17-20.10.53:678][183]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2019.10.17-20.10.53:678][183]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2019.10.17-20.10.53:678][183]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2019.10.17-20.10.53:678][183]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2019.10.17-20.10.53:678][183]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2019.10.17-20.10.53:678][183]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2019.10.17-20.10.53:774][183]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2019.10.17-20.10.53:774][183]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 1024X256)
+[2019.10.17-20.10.53:820][183]Lightmass on MT330D07: 10.6 sec total, 681 ms importing, 115 ms setup, 704 ms photons, 9.04 sec processing, 0 ms extra exporting [78/78 mappings]. Threads: 1:03 min total, 46.2 sec processing.
+[2019.10.17-20.10.53:832][183]LogStaticLightingSystem: Illumination: 27.1 sec (688 ms encoding lightmaps, 88 ms encoding shadowmaps)
+[2019.10.17-20.10.53:832][183]LogStaticLightingSystem: Lightmap texture memory:  2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2019.10.17-20.10.53:832][183]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 2 textures
+[2019.10.17-20.10.54:814][183]DumpUnbuiltLightIteractions
+[2019.10.17-20.10.54:814][183]Lights with unbuilt interactions: 0
+[2019.10.17-20.10.54:814][183]
+[2019.10.17-20.10.54:814][183]Primitives with unbuilt interactions: 0
+[2019.10.17-20.10.54:826][184]Cmd: MAP CHECK NOTIFYRESULTS
+[2019.10.17-20.10.54:826][184]MapCheck: New page: TylerMap1 - Oct 17, 2019, 12:10:54 PM
+[2019.10.17-20.10.55:318][184]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 493.419ms to complete.
+[2019.10.17-20.15.50:762][214]LogEditorViewport: Clicking on Actor (LMB): Tyler_cornholeBoard2_Blueprint_C (Tyler_cornholeBoard2_Blueprint)
+[2019.10.17-20.15.51:330][251]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox3)
+[2019.10.17-20.16.22:317][556]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.10.17-20.17.09:502][ 54]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (Board1Flat)
+[2019.10.17-20.17.12:868][434]LogEditorViewport: Clicking on Actor (context menu): Tyler_cornholeBoard2_Blueprint_C (Tyler_cornholeBoard2_Blueprint)
+[2019.10.17-20.18.13:789][169]BlueprintLog: New page: Compile TylerMap1
+[2019.10.17-20.18.14:931][268]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.17-20.18.15:504][268]LogSavePackage: Save=343.51ms
+[2019.10.17-20.18.15:504][268]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1CAD153C14DBCD93994B3D2A892A48BC6.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
+[2019.10.17-20.18.15:510][268]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
+[2019.10.17-20.18.15:535][268]LogFileHelpers: Saving map 'TylerMap1' took 0.796
+[2019.10.17-20.19.08:572][311]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2019.10.17-20.19.29:575][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Fence31)
+[2019.10.17-20.20.21:415][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Fence28)
+[2019.10.17-20.20.45:873][193]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.10.17-20.21.20:964][137]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2019.10.17-20.21.25:116][524]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.10.17-20.21.48:536][872]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.10.17-20.22.16:289][955]BlueprintLog: New page: Compile TylerMap1
+[2019.10.17-20.22.17:399][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.17-20.22.17:783][ 52]LogSavePackage: Save=344.58ms
+[2019.10.17-20.22.17:783][ 52]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap10B39C5C549B5554C491E0AACF114EE33.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
+[2019.10.17-20.22.17:788][ 52]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
+[2019.10.17-20.22.17:820][ 52]LogFileHelpers: Saving map 'TylerMap1' took 0.635
+[2019.10.17-20.27.13:051][720]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Tyler_Fence30)
+[2019.10.17-20.28.12:189][833]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (3PointTrigger)
+[2019.10.17-20.29.39:851][ 44]LogRenderer: Reallocating scene render targets to support 1616x1260 Format 26 NumSamples 1 (Frame:1).
+[2019.10.17-20.32.50:801][183]LogBlueprint: Warning: [BeanbagTrigger] 'ScoreCount' variable not found. Base class was probably changed.
+[2019.10.17-20.32.50:801][183]LogBlueprint: Warning: [BeanbagTrigger] 'ScoreCount' variable not found. Base class was probably changed.
+[2019.10.17-20.32.50:801][183]LogBlueprint: Warning: [BeanbagTrigger] 'ScoreCount' variable not found. Base class was probably changed.
+[2019.10.17-20.33.17:638][388]LogBlueprint: Warning: [BeanbagTrigger] 'ScoreCount' variable not found. Base class was probably changed.
+[2019.10.17-20.33.17:639][388]LogBlueprint: Warning: [BeanbagTrigger] 'ScoreCount' variable not found. Base class was probably changed.
+[2019.10.17-20.33.17:639][388]LogBlueprint: Warning: [BeanbagTrigger] 'ScoreCount' variable not found. Base class was probably changed.
+[2019.10.17-20.33.42:083][ 44]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TextRenderActor /Game/TylerMap1.TylerMap1:PersistentLevel.TextRenderActor) from referencer (K2Node_Literal /Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger:SetScoreToDisplay.K2Node_Literal_1).  Import failed...
+[2019.10.17-20.33.42:083][ 44]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'TextRenderActor'/Game/TylerMap1.TylerMap1:PersistentLevel.TextRenderActor''
+[2019.10.17-20.33.42:085][ 44]LogBlueprint: Warning: [BeanbagTrigger] 'ScoreCount' variable not found. Base class was probably changed.
+[2019.10.17-20.33.42:085][ 44]LogBlueprint: Warning: [BeanbagTrigger] 'ScoreCount' variable not found. Base class was probably changed.
+[2019.10.17-20.33.45:882][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler_Blueprints/BeanbagTrigger" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/Tyler_Blueprints/BeanbagTrigger.uasset" SILENT=true
+[2019.10.17-20.33.45:931][491]LogSavePackage: Save=46.28ms
+[2019.10.17-20.33.45:931][491]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/BeanbagTrigger4433D8C8467E41AC5604B5A5DFC84C6F.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/Tyler_Blueprints/BeanbagTrigger.uasset'
+[2019.10.17-20.33.45:936][491]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/Tyler_Blueprints/BeanbagTrigger.uasset
+[2019.10.17-20.33.46:532][562]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.33.46:575][562]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Set ScoreCount
+[2019.10.17-20.33.46:575][562]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Get ScoreCount
+[2019.10.17-20.33.46:575][562]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Get ScoreCount
+[2019.10.17-20.33.46:575][562]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Set ScoreCount
+[2019.10.17-20.33.46:576][562]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Set ScoreCount
+[2019.10.17-20.33.46:587][562]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.33.46:587][562]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.33.46:587][562]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.33.46:587][562]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.33.46:588][562]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.33.46:588][562]LogBlueprint: Warning: [Compiler BeanbagTrigger] Node  Unknown  is not referencing a valid level actor
+[2019.10.17-20.33.46:802][562]LogBlueprint: Warning: [Compiler BeanbagTrigger] [1752.43] Compile of BeanbagTrigger failed. 5 Fatal Issue(s) 6 Warning(s) [in 269 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.34.09:134][ 39]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.34.09:147][ 39]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Set ScoreCount
+[2019.10.17-20.34.09:147][ 39]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Get ScoreCount
+[2019.10.17-20.34.09:147][ 39]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Get ScoreCount
+[2019.10.17-20.34.09:148][ 39]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Set ScoreCount
+[2019.10.17-20.34.09:148][ 39]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Set ScoreCount
+[2019.10.17-20.34.09:148][ 39]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.09:148][ 39]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.09:148][ 39]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.09:149][ 39]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.09:149][ 39]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.09:149][ 39]LogBlueprint: Warning: [Compiler BeanbagTrigger] Node  Unknown  is not referencing a valid level actor
+[2019.10.17-20.34.09:316][ 39]LogBlueprint: Warning: [Compiler BeanbagTrigger] [1774.94] Compile of BeanbagTrigger failed. 5 Fatal Issue(s) 6 Warning(s) [in 182 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.34.12:593][429]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.34.12:605][429]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Set ScoreCount
+[2019.10.17-20.34.12:605][429]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Get ScoreCount
+[2019.10.17-20.34.12:605][429]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Get ScoreCount
+[2019.10.17-20.34.12:605][429]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Set ScoreCount
+[2019.10.17-20.34.12:606][429]LogBlueprint: Warning: [Compiler BeanbagTrigger] Could not find a variable named "ScoreCount" in 'BeanbagTrigger_C'.
+Make sure 'BeanbagTrigger_C' has been compiled for  Set ScoreCount
+[2019.10.17-20.34.12:606][429]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.12:606][429]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.12:606][429]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.12:607][429]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.12:607][429]LogBlueprint: Error: [Compiler BeanbagTrigger] The property associated with  Score Count  could not be found
+[2019.10.17-20.34.12:607][429]LogBlueprint: Warning: [Compiler BeanbagTrigger] Node  Unknown  is not referencing a valid level actor
+[2019.10.17-20.34.12:783][429]LogBlueprint: Warning: [Compiler BeanbagTrigger] [1778.41] Compile of BeanbagTrigger failed. 5 Fatal Issue(s) 6 Warning(s) [in 189 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.35.52:209][952]LogSlate: Took 0.026164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.10.17-20.36.46:150][122]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.36.46:166][122]LogBlueprint: Warning: [Compiler BeanbagTrigger] Node  Unknown  is not referencing a valid level actor
+[2019.10.17-20.36.46:367][122]LogBlueprint: Warning: [Compiler BeanbagTrigger] [1931.99] Compile of BeanbagTrigger successful, but with 1 Warning(s) [in 216 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.36.56:841][365]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.36.56:860][365]LogBlueprint: Warning: [Compiler BeanbagTrigger] Node  Unknown  is not referencing a valid level actor
+[2019.10.17-20.36.57:054][365]LogBlueprint: Warning: [Compiler BeanbagTrigger] [1942.68] Compile of BeanbagTrigger successful, but with 1 Warning(s) [in 212 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.37.12:350][191]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.37.12:364][191]LogBlueprint: Warning: [Compiler BeanbagTrigger] Node  Unknown  is not referencing a valid level actor
+[2019.10.17-20.37.12:537][191]LogBlueprint: Warning: [Compiler BeanbagTrigger] [1958.16] Compile of BeanbagTrigger successful, but with 1 Warning(s) [in 186 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.37.55:723][ 50]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2019.10.17-20.37.59:498][354]Cmd: EDIT COPY
+[2019.10.17-20.38.19:139][875]LogEditorTransaction: Undo Move Node
+[2019.10.17-20.38.19:881][921]LogEditorTransaction: Undo Move Node
+[2019.10.17-20.38.20:397][961]LogEditorTransaction: Undo Add Node
+[2019.10.17-20.38.59:769][332]LogProperty: Warning: Illegal TEXT reference to a private object in external package (TextRenderActor /Game/TylerMap1.TylerMap1:PersistentLevel.TextRenderActor) from referencer (K2Node_Literal /Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger:SetScoreToDisplay.K2Node_Literal_1).  Import failed...
+[2019.10.17-20.38.59:769][332]LogProperty: Warning: ObjectProperty /Script/BlueprintGraph.K2Node_Literal:ObjectRef: unresolved reference to 'TextRenderActor'/Game/TylerMap1.TylerMap1:PersistentLevel.TextRenderActor''
+[2019.10.17-20.41.35:263][420]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2019.10.17-20.42.14:487][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.10.17-20.42.14:836][ 41]LogSavePackage: Save=321.60ms
+[2019.10.17-20.42.14:836][ 41]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_Auto1442CFAF94A8F5AF0663528B3D2FA0063.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap'
+[2019.10.17-20.42.14:839][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_Auto1.umap
+[2019.10.17-20.42.14:842][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TylerMap1' took 0.383
+[2019.10.17-20.42.14:842][ 41]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.383
+[2019.10.17-20.42.14:845][ 41]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TylerMap1_BuiltData] ([1] browsable assets)...
+[2019.10.17-20.42.14:845][ 41]OBJ SavePackage: Finished generating thumbnails for package [/Game/TylerMap1_BuiltData]
+[2019.10.17-20.42.14:950][ 41]LogSavePackage: Save=70.57ms
+[2019.10.17-20.42.14:950][ 41]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltData_Auto1083555BA4E58B2988F930D9CB3971B89.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_BuiltData_Auto1.uasset'
+[2019.10.17-20.42.14:953][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/TylerMap1_BuiltData_Auto1.uasset
+[2019.10.17-20.42.14:955][ 41]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Tyler_Blueprints/BeanbagTrigger] ([1] browsable assets)...
+[2019.10.17-20.42.14:955][ 41]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tyler_Blueprints/BeanbagTrigger]
+[2019.10.17-20.42.15:042][ 41]LogSavePackage: Save=57.70ms
+[2019.10.17-20.42.15:042][ 41]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/BeanbagTrigger_Auto1DF7C8B6B4C5245F7B80D1B95635DD131.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/Tyler_Blueprints/BeanbagTrigger_Auto1.uasset'
+[2019.10.17-20.42.15:046][ 41]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/Tyler_Blueprints/BeanbagTrigger_Auto1.uasset
+[2019.10.17-20.42.15:046][ 41]LogFileHelpers: Auto-saving content packages took 0.203
+[2019.10.17-20.42.34:642][380]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.42.34:667][380]LogBlueprint: Error: [Compiler BeanbagTrigger] This blueprint (self) is not a TextRenderActor, therefore ' Target ' must have a connection.
+[2019.10.17-20.42.34:667][380]LogBlueprint: Error: [Compiler BeanbagTrigger] Variable node  Get TextRender  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.10.17-20.42.34:857][380]LogBlueprint: Warning: [Compiler BeanbagTrigger] [2280.48] Compile of BeanbagTrigger failed. 2 Fatal Issue(s) 0 Warning(s) [in 215 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.42.40:541][ 56]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.42.40:554][ 56]LogBlueprint: Error: [Compiler BeanbagTrigger] This blueprint (self) is not a TextRenderActor, therefore ' Target ' must have a connection.
+[2019.10.17-20.42.40:554][ 56]LogBlueprint: Error: [Compiler BeanbagTrigger] Variable node  Get TextRender  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.10.17-20.42.40:726][ 56]LogBlueprint: Warning: [Compiler BeanbagTrigger] [2286.35] Compile of BeanbagTrigger failed. 2 Fatal Issue(s) 0 Warning(s) [in 185 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.52.15:414][642]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TylerMap1' took 0.023
+[2019.10.17-20.52.15:416][642]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Tyler_Blueprints/BP_PickupBeanbag] ([1] browsable assets)...
+[2019.10.17-20.52.15:428][642]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Tyler_Blueprints/BP_PickupBeanbag.BP_PickupBeanbag]
+[2019.10.17-20.52.15:428][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tyler_Blueprints/BP_PickupBeanbag]
+[2019.10.17-20.52.15:530][642]LogSavePackage: Save=74.87ms
+[2019.10.17-20.52.15:530][642]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/BP_PickupBeanbag_Auto23186D4874E1D16621279BA8B6C6B77EF.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/Tyler_Blueprints/BP_PickupBeanbag_Auto2.uasset'
+[2019.10.17-20.52.15:533][642]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/Tyler_Blueprints/BP_PickupBeanbag_Auto2.uasset
+[2019.10.17-20.52.15:535][642]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Tyler_Blueprints/BeanbagTrigger] ([1] browsable assets)...
+[2019.10.17-20.52.15:535][642]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tyler_Blueprints/BeanbagTrigger]
+[2019.10.17-20.52.15:605][642]LogSavePackage: Save=42.44ms
+[2019.10.17-20.52.15:605][642]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/BeanbagTrigger_Auto2CA05019A4E79D7EB175416899031EC11.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/Tyler_Blueprints/BeanbagTrigger_Auto2.uasset'
+[2019.10.17-20.52.15:608][642]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/Autosaves/Game/Tyler_Blueprints/BeanbagTrigger_Auto2.uasset
+[2019.10.17-20.52.15:608][642]LogFileHelpers: Auto-saving content packages took 0.194
+[2019.10.17-20.55.43:764][218]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.55.43:777][218]LogBlueprint: Error: [Compiler BeanbagTrigger] This blueprint (self) is not a TextRenderActor, therefore ' Target ' must have a connection.
+[2019.10.17-20.55.43:777][218]LogBlueprint: Error: [Compiler BeanbagTrigger] Variable node  Get TextRender  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.10.17-20.55.43:981][218]LogBlueprint: Warning: [Compiler BeanbagTrigger] [3069.60] Compile of BeanbagTrigger failed. 2 Fatal Issue(s) 0 Warning(s) [in 217 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.55.56:470][589]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.55.56:483][589]LogBlueprint: Error: [Compiler BeanbagTrigger] This blueprint (self) is not a TextRenderComponent, therefore ' Target ' must have a connection.
+[2019.10.17-20.55.56:682][589]LogBlueprint: Warning: [Compiler BeanbagTrigger] [3082.30] Compile of BeanbagTrigger failed. 1 Fatal Issue(s) 0 Warning(s) [in 211 ms] (/Game/Tyler_Blueprints/BeanbagTrigger.BeanbagTrigger)
+[2019.10.17-20.56.01:246][132]BlueprintLog: New page: Compile BeanbagTrigger
+[2019.10.17-20.56.06:495][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.17-20.56.06:865][702]LogSavePackage: Save=321.40ms
+[2019.10.17-20.56.06:865][702]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1B9D71869459DF33249A63D93230C8BF7.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
+[2019.10.17-20.56.06:871][702]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
+[2019.10.17-20.56.06:906][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
+[2019.10.17-20.56.07:132][702]LogSavePackage: Save=188.85ms
+[2019.10.17-20.56.07:132][702]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltData1D55A3C2482CC6071DE4969D71091337.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
+[2019.10.17-20.56.07:138][702]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
+[2019.10.17-20.56.45:630][468]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.10.17-20.57.54:780][139]LogPlayLevel: Launcher Device ID: WindowsNoEditor@MT330D07
+[2019.10.17-20.57.54:822][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.17-20.59.06:251][410]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TylerMap1.TylerMap1:PersistentLevel' has LevelScriptBlueprint '/Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1' with GeneratedClass '/Game/TylerMap1.TylerMap1_C' with ClassGeneratedBy '/Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1'
+[2019.10.17-20.59.06:251][410]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.17-20.59.06:252][410]PIE: New page: SIE session: TylerMap1 (Oct 17, 2019, 12:59:06 PM)
+[2019.10.17-20.59.06:252][410]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TylerMap1
+[2019.10.17-20.59.06:267][410]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014867s)
+[2019.10.17-20.59.06:267][410]LogAIModule: Creating AISystem for world TylerMap1
+[2019.10.17-20.59.06:268][410]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2019.10.17-20.59.06:268][410]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TylerMap1.TylerMap1 to /Game/UEDPIE_0_TylerMap1.TylerMap1 (0.016408s)
+[2019.10.17-20.59.06:318][410]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.17-20.59.06:368][410]LogInit: FAudioDevice initialized.
+[2019.10.17-20.59.06:418][410]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.10.17-20.59.06:418][410]LogLoad: Game class is 'GameModeBase'
+[2019.10.17-20.59.06:424][410]LogWorld: Bringing World /Game/UEDPIE_0_TylerMap1.TylerMap1 up for play (max tick rate 0) at 2019.10.17-16.59.06
+[2019.10.17-20.59.06:459][410]LogWorld: Bringing up level for play took: 0.038993
+[2019.10.17-20.59.06:469][410]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.10.17-20.59.06:633][410]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2019.10.17-20.59.06:680][410]PIE: Play in editor start time for /Game/UEDPIE_0_TylerMap1 0.734
+[2019.10.17-20.59.06:798][410]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TylerMap1.TylerMap1:PersistentLevel' has LevelScriptBlueprint '/Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1' with GeneratedClass '/Game/TylerMap1.TylerMap1_C' with ClassGeneratedBy '/Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1'
+[2019.10.17-20.59.18:670][167]LogEditorViewport: Clicking on Actor (LMB): BP_PickupBeanbag_C (BP_PickupBeanbag4)
+[2019.10.17-21.00.05:972][922]LogEditorViewport: Clicking on Actor (LMB): BP_PickupBeanbag_C (BP_PickupBeanbag5)
+[2019.10.17-21.00.23:151][ 41]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TylerMap1.TylerMap1:PersistentLevel' has LevelScriptBlueprint '/Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1' with GeneratedClass '/Game/TylerMap1.TylerMap1_C' with ClassGeneratedBy '/Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1'
+[2019.10.17-21.00.23:239][ 41]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TylerMap1.TylerMap1:PersistentLevel' has LevelScriptBlueprint '/Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1' with GeneratedClass '/Game/TylerMap1.TylerMap1_C' with ClassGeneratedBy '/Game/TylerMap1.TylerMap1:PersistentLevel.TylerMap1'
+[2019.10.17-21.01.12:944][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.10.17-21.01.13:288][858]LogSavePackage: Save=297.66ms
+[2019.10.17-21.01.13:289][858]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1174E201947C544FB19FF8B8DB693803C.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap'
+[2019.10.17-21.01.13:294][858]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1.umap
+[2019.10.17-21.01.13:318][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TylerMap1_BuiltData" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset" SILENT=true
+[2019.10.17-21.01.13:532][858]LogSavePackage: Save=180.76ms
+[2019.10.17-21.01.13:532][858]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/TylerMap1_BuiltData3383C11644F0471467DD6C8314D56855.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset'
+[2019.10.17-21.01.13:535][858]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/TylerMap1_BuiltData.uasset
+[2019.10.17-21.01.17:378][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler_Blueprints/BeanbagTrigger" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/Tyler_Blueprints/BeanbagTrigger.uasset" SILENT=true
+[2019.10.17-21.01.17:444][ 59]LogSavePackage: Save=36.75ms
+[2019.10.17-21.01.17:444][ 59]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/BeanbagTrigger6C5F8EA74AF00D17918460B04F052DE8.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/Tyler_Blueprints/BeanbagTrigger.uasset'
+[2019.10.17-21.01.17:450][ 59]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/Tyler_Blueprints/BeanbagTrigger.uasset
+[2019.10.17-21.01.17:455][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tyler_Blueprints/BP_PickupBeanbag" FILE="../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/Tyler_Blueprints/BP_PickupBeanbag.uasset" SILENT=true
+[2019.10.17-21.01.17:555][ 59]LogSavePackage: Save=64.73ms
+[2019.10.17-21.01.17:555][ 59]LogSavePackage: Moving '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Saved/BP_PickupBeanbagEA81DC5947263BDD8298158DCA75A7F1.tmp' to '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/Tyler_Blueprints/BP_PickupBeanbag.uasset'
+[2019.10.17-21.01.17:560][ 59]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/Tyler_Blueprints/BP_PickupBeanbag.uasset
+[2019.10.17-21.01.17:719][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.10.17-21.01.17:815][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.10.17-21.01.18:163][ 60]Cmd: QUIT_EDITOR
+[2019.10.17-21.01.18:513][ 60]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.17-21.01.18:535][ 60]LogExit: Preparing to exit.
+[2019.10.17-21.01.19:580][ 60]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/' was aborted.
+[2019.10.17-21.01.19:713][ 60]LogExit: Editor shut down
+[2019.10.17-21.01.19:747][ 60]LogExit: Transaction tracking system shut down
+[2019.10.17-21.01.19:870][ 60]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2019.10.17-21.01.19:870][ 60]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Public/Public Projects/DemoCornholeTyler/Content/' was aborted.
+[2019.10.17-21.01.19:870][ 60]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2019.10.17-21.01.19:870][ 60]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2019.10.17-21.01.19:870][ 60]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2019.10.17-21.01.20:019][ 60]LogExit: Object subsystem successfully closed.
+[2019.10.17-21.01.20:044][ 60]LogD3D11RHI: Shutdown
+[2019.10.17-21.01.20:045][ 60]LogD3D11RHI: CleanupD3DDevice
+[2019.10.17-21.01.20:050][ 60]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.17-21.01.20:109][ 60]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (540)
+[2019.10.17-21.01.20:109][ 60]LogModuleManager: Shutting down and abandoning module LauncherServices (538)
+[2019.10.17-21.01.20:109][ 60]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (536)
+[2019.10.17-21.01.20:109][ 60]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2019.10.17-21.01.20:109][ 60]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2019.10.17-21.01.20:117][ 60]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2019.10.17-21.01.20:117][ 60]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2019.10.17-21.01.20:117][ 60]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2019.10.17-21.01.20:117][ 60]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2019.10.17-21.01.20:122][ 60]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2019.10.17-21.01.20:122][ 60]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2019.10.17-21.01.20:122][ 60]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2019.10.17-21.01.20:122][ 60]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Collections/' was aborted.
+[2019.10.17-21.01.20:122][ 60]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeTyler/Content/Developers/liu7864/Collections/' was aborted.
+[2019.10.17-21.01.20:122][ 60]LogDirectoryWatcher: A directory notification for 'C:/Users/Public/Public Projects/DemoCornholeTyler/Saved/Collections/' was aborted.
+[2019.10.17-21.01.20:122][ 60]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2019.10.17-21.01.20:122][ 60]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module Media (477)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2019.10.17-21.01.20:123][ 60]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2019.10.17-21.01.20:124][ 60]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2019.10.17-21.01.20:124][ 60]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2019.10.17-21.01.20:124][ 60]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2019.10.17-21.01.20:124][ 60]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2019.10.17-21.01.20:124][ 60]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2019.10.17-21.01.20:124][ 60]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2019.10.17-21.01.21:023][ 60]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2019.10.17-21.01.21:023][ 60]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2019.10.17-21.01.21:023][ 60]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2019.10.17-21.01.21:023][ 60]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2019.10.17-21.01.21:024][ 60]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2019.10.17-21.01.21:025][ 60]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2019.10.17-21.01.21:025][ 60]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2019.10.17-21.01.21:025][ 60]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2019.10.17-21.01.21:080][ 60]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2019.10.17-21.01.21:080][ 60]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2019.10.17-21.01.21:080][ 60]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2019.10.17-21.01.21:080][ 60]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2019.10.17-21.01.21:080][ 60]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2019.10.17-21.01.21:080][ 60]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2019.10.17-21.01.21:081][ 60]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2019.10.17-21.01.21:081][ 60]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2019.10.17-21.01.21:081][ 60]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2019.10.17-21.01.21:081][ 60]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2019.10.17-21.01.21:093][ 60]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2019.10.17-21.01.21:095][ 60]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2019.10.17-21.01.21:096][ 60]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2019.10.17-21.01.21:240][ 60]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2019.10.17-21.01.21:240][ 60]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2019.10.17-21.01.21:240][ 60]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2019.10.17-21.01.21:240][ 60]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2019.10.17-21.01.21:240][ 60]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2019.10.17-21.01.21:240][ 60]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2019.10.17-21.01.21:240][ 60]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2019.10.17-21.01.21:240][ 60]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2019.10.17-21.01.21:240][ 60]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2019.10.17-21.01.21:241][ 60]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2019.10.17-21.01.21:242][ 60]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2019.10.17-21.01.21:243][ 60]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2019.10.17-21.01.21:344][ 60]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2019.10.17-21.01.21:444][ 60]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2019.10.17-21.01.21:444][ 60]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2019.10.17-21.01.21:444][ 60]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2019.10.17-21.01.21:444][ 60]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2019.10.17-21.01.21:444][ 60]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2019.10.17-21.01.21:444][ 60]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2019.10.17-21.01.21:445][ 60]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2019.10.17-21.01.21:445][ 60]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2019.10.17-21.01.21:445][ 60]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2019.10.17-21.01.21:445][ 60]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2019.10.17-21.01.21:447][ 60]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2019.10.17-21.01.21:448][ 60]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module Core (168)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2019.10.17-21.01.21:453][ 60]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2019.10.17-21.01.21:457][ 60]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2019.10.17-21.01.21:518][ 60]LogDerivedDataCache: Shutdown
+[2019.10.17-21.01.21:518][ 60]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2019.10.17-21.01.21:519][ 60]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2019.10.17-21.01.21:520][ 60]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2019.10.17-21.01.21:521][ 60]LogOnline: Display: Unloading online subsystem: NULL
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2019.10.17-21.01.21:521][ 60]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2019.10.17-21.01.21:521][ 60]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.10.17-21.01.21:521][ 60]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6603FB97-4763-7B63-AB4A-11997038CEA5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=f6826f4849a5a3e83f39e88529ef159e%7C32c2888ff7d94c75af71ce87e6807832%7C1924da02-10e0-41d5-93a8-c0b7d8bbb82f&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.10.17-21.01.21:555][ 60]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2019.10.17-21.01.21:557][ 60]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.10.17-21.01.21:557][ 60]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.10.17-21.01.21:557][ 60]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.10.17-21.01.21:557][ 60]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.10.17-21.01.21:557][ 60]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.10.17-21.01.21:557][ 60]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.10.17-21.01.21:557][ 60]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.10.17-21.01.21:560][ 60]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.10.17-21.01.21:560][ 60]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.10.17-21.01.21:560][ 60]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.10.17-21.01.21:560][ 60]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.10.17-21.01.21:560][ 60]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.10.17-21.01.21:560][ 60]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.10.17-21.01.21:560][ 60]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.10.17-21.01.21:561][ 60]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.10.17-21.01.21:561][ 60]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.10.17-21.01.21:561][ 60]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.10.17-21.01.21:561][ 60]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.10.17-21.01.21:563][ 60]LogExit: Exiting.
+[2019.10.17-21.01.21:577][ 60]Log file closed, 10/17/19 17:01:21
